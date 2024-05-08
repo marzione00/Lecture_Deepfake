@@ -1,0 +1,390 @@
+\documentclass[11pt]{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+	\definecolor{bostonuniversityred}{rgb}{0.8, 0.0, 0.0}
+\mode<presentation>
+{
+  \usetheme{Madrid}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{beaver} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+%\usepackage{pifont}
+\documentclass[tikz]{standalone}
+\usepackage{neuralnetwork}
+\usepackage{listings}
+\usepackage{euler}
+\usepackage{bbm}
+\usetheme[secheader]{Boadilla}
+\usecolortheme[named=bostonuniversityred]{structure}
+\usepackage[bookmarks]{hyperref}
+\usepackage[backend=bibtex]{biblatex}
+\setbeamercolor{title}{parent=author in head/foot}
+\usepackage{braket}
+\usepackage{amsmath,amsfonts,amsthm,bm}
+\addbibresource{bibliography.bib}
+\newtheorem*{remark}{Remark}
+\usepackage[italian]{babel}
+\usepackage[utf8x]{inputenc}
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Pic/Cover_image.png}}
+\title[Deepfake]{Deepfake}}
+\author{Marzio De Corato}
+\date{\today}
+
+\newcommand{\xin}[2]{$x_#2$}
+\newcommand{\xout}[2]{$\hat x_#2$}
+
+
+\begin{document}
+
+\begin{frame}
+\vspace{+6.8 cm}  \titlepage
+\end{frame}
+
+\usebackgroundtemplate{ } 
+
+% Uncomment these lines for an automatically generated outline.
+\begin{frame}{Outline}
+\setcounter{tocdepth}{1}
+\begin{center}
+\Large
+  \tableofcontents
+\end{center}
+\end{frame}
+
+\section{Definizioni}
+
+\begin{frame}
+\begin{center}
+\Huge
+Definizioni
+\end{center}
+\end{frame}
+
+\begin{frame}{Deefake e Intelligenza Artificiale - definizioni}
+
+\begin{alertblock}{Deepfake (NSA) \cite{nsa_definition}}
+Contenuto multimediale creato sinteticamente o manipolato utilizzando una qualche forma di tecnologia meccanica o di deep learning.
+\end{alertblock}
+
+\begin{alertblock}{Intelligenza artificiale (NIST) \cite{nist_definitioN_AI}}
+Una branca dell'informatica dedicata allo sviluppo di sistemi di elaborazione dati che svolgono funzioni normalmente associate all'intelligenza umana, come il ragionamento, l'apprendimento e l'auto-miglioramento
+\end{alertblock}
+
+\end{frame}
+
+\begin{frame}{Deepfake e Intelligenza Artificiale - tassonomia \cite{tassonomia}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/IA_classification.jpg}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Deepfake e Intelligenza Artificiale - reti neurali \cite{NN}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/Neural_network.png}
+\end{center}
+
+\end{frame}
+
+
+
+\section{Breve storia}
+
+\begin{frame}
+\begin{center}
+\Huge
+Breve storia
+\end{center}
+\end{frame}
+
+\begin{frame}{Storia dei deepfake }
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/lincon.jpg}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Storia dei deepfake: 1860 Calhoun/Lincon \cite{ng}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/Licon_deepfake.jpg}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Storia dei deepfake: 1997 Video Rewrite (GAN) \cite{video_rewrite}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/video_rewrite.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Deepfake e Intelligenza Artificiale - tassonomia \cite{masood2023deepfakes}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/timeline_deepfakes.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Storia dei deepfake: 2017 B.Obama \cite{reuters_fake}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/guardian_obama.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Storia dei deepfake: 2017 Imitazione della voce \cite{wsj_audio}}
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Pic/deepfake_audio.png}
+\end{center}
+
+\end{frame}
+
+
+
+
+\begin{frame}{Storia dei deepfake: 2020 N.Pelosi \cite{wsj_audio}}
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Pic/fake_video_pelosi.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Storia dei deepfake: Software disponibili \cite{masood2023deepfakes}}
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Pic/deepfake_tools.png}
+\end{center}
+
+\end{frame}
+
+
+\section{Fondamenti teorici/computazionali}
+
+\begin{frame}
+\begin{center}
+\Huge
+Fondamenti teorici/computazionali
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Reti neurali \cite{pml1Book,classification_datacamp}}
+
+\begin{alertblock}{Distribuzione di probabilità condizionata - idea }
+Abbiamo una serie di record che contengono delle variabili  input (dimensione del fiore, colore etc..) e una variabile di output (caso semplice, può essere generalizzato). Non sappiamo a priori come input e output siano legati (altrimenti avremmo risolto il problema !), ma siamo interessati a trovare una funzione di probabilità che associ degli input a degli output. $p(y=c|\textbf{x};\bm{\theta})=f_{c}(\textbf{x};\bm{\theta})$
+\end{alertblock}
+
+
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Pic/4_label_classification_task_Datacamp.png}
+\end{center}
+
+
+\end{frame}
+
+
+
+\begin{frame}{Reti neurali \cite{pml1Book,classification_datacamp}}
+
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{alertblock}{Regressione lineare}
+$f(x;\bm{\theta})=b+wx$
+\end{alertblock}
+\begin{alertblock}{Regressione polinomiale}
+$f(\textbf{x};\textbf{w})=w_{0}+w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{1}^{2}+w_{4}x^{2}_{2}$
+\end{alertblock}
+\begin{alertblock}{Non-linear feature extraction}
+$f(\textbf{x};\textbf{w};\textbf{V})=w^{T}\phi(\textbf{x};\textbf{V})$
+\end{alertblock}
+\begin{alertblock}{Deep neural network}
+$f(\textbf{x};\bm{\theta})=f_{L}(f_{L-1}(...(f_{1}(x))...)$
+\end{alertblock}
+\end{column}
+\begin{column}{0.4\textwidth}  
+\begin{center}
+\includegraphics[width=\textwidth]{Pic/linear_regression.png}
+\end{center}
+\begin{alertblock}{No free lunch theorem}
+Non esiste un modello che abbia performance migliori in tutti i casi possibili. Ciò è dovuto al fatto che ogni modello fa delle assunzioni.
+\end{alertblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+
+\begin{frame}{Reti neurali \cite{pml1Book}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{alertblock}{Perceptrons}
+\begin{equation*}
+\begin{split}
+&f(\textbf{x};\bm{\theta})=\\
+&=\mathds{1}(\textbf{w}^{T}\textbf{x}+b \geq 0)\\
+&=H(\textbf{w}^{T}x+b)
+\end{split}
+\end{equation*}
+\end{alertblock}
+\begin{alertblock}{MLP}
+\begin{equation*}
+\begin{split}
+z_{l}& =f_{l}(z_{l-1})=\varphi(\textbf{b}_l+\textbf{W}_{l}z_{l-1}) \\
+z_{kl}& =\varphi_{l}\left(b_{kl}+\sum^{K_{l-1}}_{j=1}w_{lkj}z_{jl-1}\right) \\
+a_{l}& =b_{l}+\textbf{W}_{l}\textbf{z}_{l-1}
+\end{split}
+\end{equation*}
+\end{alertblock}
+\end{column}
+\begin{column}{0.4\textwidth}  
+\begin{center}
+\includegraphics[width=\textwidth]{Pic/perceptron.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}{Modelli generativi \cite{google_generativeIA,pml1Book}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{alertblock}{Modello generativo}
+Un modello generativo descrive come viene generato un set di dati utilizzando un modello probabilistico $(p(x)\quad x\in X)$. Campionando da questo modello, siamo in grado di generare nuovi dati.
+\end{alertblock}
+\begin{center}
+\includegraphics[width=\textwidth]{Pic/generative_v_discriminative.png}
+\end{center}
+\end{column}
+\begin{column}{0.4\textwidth}  
+\begin{alertblock}{Tipologia di modelli generativi}
+\begin{itemize}
+\item Deep generative models (DGM): viene usata una deep neural network. Comprende i Variational Autoencoder (VAE) e le Generative adversarial network oltre che, ad esempio, i Diffusion models e gli Energy based models (EBM)
+\item Probabilistic graphical models: viene usato un grafo causale 
+\end{itemize}
+\end{alertblock}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Modelli generativi \cite{pml1Book}}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{Pic/generative_models.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Modelli generativi: esempi \cite{pml1Book}}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Pic/generative_models_example.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Autoencoders \cite{pml1Book}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{alertblock}{Autoencoder}
+Encoder ($f_{e}$) +   Decoder $f_{d}$ \\
+$f_{e}: x \rightarrow z$ $f_{d}: z \rightarrow x$ \\ $ r(x)= f_{d}(f_{e}(x))$ (rec. function )\\$\mathcal{L}(\theta)=||r(x)-x||^{2}$ (loss function)
+\end{alertblock}
+\begin{alertblock}{Funzionamento}
+L'unità in mezzo agisce come collo di bottiglia tra l'input e la sua ricostruzione, in modo da applicare una compressione.
+\end{alertblock}
+\end{column}
+\begin{column}{0.4\textwidth}  
+\begin{center}
+\includegraphics[width=\textwidth]{Pic/autoencoder.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Autoencoders \cite{pml1Book}}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/autoencoder_ex.png}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Variational autoencoders \cite{pml1Book}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{alertblock}{Modello generativo}
+Un modello generativo descrive come viene generato un set di dati utilizzando un modello probabilistico $(p(x)\quad x\in X)$. Campionando da questo modello, siamo in grado di generare nuovi dati.
+\end{alertblock}
+\begin{alertblock}{Differenza rispetto agli AE}
+Rispetto agli autoencoder i variational autoencoder possono essere visti come una versione probabilistica di un autoencoder deterministico. In questo modo si può avere una IA generativa
+\end{alertblock}
+\end{column}
+\begin{column}{0.4\textwidth}  
+\begin{center}
+\includegraphics[width=\textwidth]{Pic/variational_auto_diag.png}
+\end{center}
+\begin{alertblock}{Remark}
+La VAE, per come è costruita, è in grado di convertire punti casuali in output, mentre il decoder di AE (deterministico) funziona solo per un punto che è già presente nel training. 
+\end{alertblock}
+\begin{center}
+\includegraphics[width=0.3\textwidth]{Pic/AE_vs_VAE.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
+\section{Difesa: come rilevarle ?}
+
+\begin{frame}
+\begin{center}
+\Huge
+Difesa: come rilevarle ?
+\end{center}
+\end{frame}
+
+
+\section{Aspetti legali}
+
+\begin{frame}
+\begin{center}
+\Huge
+Aspetti legali
+\end{center}
+\end{frame}
+
+
+
+%\begin{center}
+%\includegraphics[width=0.5\textwidth]{Pic/%simmetrie_esempio.png}
+%\end{center}
+
+
+\begin{frame}[t,allowframebreaks]
+\frametitle{Bibliography}
+\printbibliography
+\end{frame}
+
+
+
+
+
+\end{document}

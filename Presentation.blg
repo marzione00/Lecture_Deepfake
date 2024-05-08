@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Presentation.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: biblatex.bst
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: Presentation-blx.bib
+Database file #2: bibliography.bib
+Repeated entry---line 57 of file bibliography.bib
+ : @misc{wsj_audio
+ :                ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.19
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 13 entries,
+            6399 wiz_defined-function locations,
+            1241 strings with 10438 characters,
+and the built_in function-call counts, 35294 in all, are:
+= -- 2136
+> -- 285
+< -- 213
++ -- 667
+- -- 103
+* -- 1796
+:= -- 2974
+add.period$ -- 0
+call.type$ -- 13
+change.case$ -- 48
+chr.to.int$ -- 42
+cite$ -- 24
+duplicate$ -- 4114
+empty$ -- 4171
+format.name$ -- 151
+if$ -- 7594
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 0
+newline$ -- 141
+num.names$ -- 105
+pop$ -- 4200
+preamble$ -- 1
+purify$ -- 52
+quote$ -- 0
+skip$ -- 1090
+stack$ -- 0
+substring$ -- 3395
+swap$ -- 808
+text.length$ -- 210
+text.prefix$ -- 12
+top$ -- 1
+type$ -- 430
+warning$ -- 0
+while$ -- 373
+width$ -- 0
+write$ -- 129
+(There was 1 error message)
