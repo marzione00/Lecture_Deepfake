@@ -360,8 +360,12 @@ La VAE, per come è costruita, è in grado di convertire punti casuali in output
 \begin{frame}{Generative adversarial networks \cite{pml1Book,pml2Book}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
-\begin{alertblock}{Modello generativo}
-Un modello generativo descrive come viene generato un set di dati utilizzando un modello probabilistico $(p(x)\quad x\in X)$. Campionando da questo modello, siamo in grado di generare nuovi dati.
+\begin{alertblock}{Idea}
+Ho due reti neurali
+\begin{itemize}
+\item Generatore: creare nuovi dati
+\item Discriminatore: distinguere i dati nuovi da quelli veri
+\end{itemize}
 \end{alertblock}
 \begin{alertblock}{Differenza rispetto agli AE}
 Rispetto agli autoencoder i variational autoencoder possono essere visti come una versione probabilistica di un autoencoder deterministico. In questo modo si può avere una IA generativa
@@ -369,7 +373,7 @@ Rispetto agli autoencoder i variational autoencoder possono essere visti come un
 \end{column}
 \begin{column}{0.4\textwidth}  
 \begin{center}
-\includegraphics[width=\textwidth]{Pic/variational_auto_diag.png}
+\includegraphics[width=\textwidth]{Pic/GAN.png}
 \end{center}
 \begin{alertblock}{Remark}
 La VAE, per come è costruita, è in grado di convertire punti casuali in output, mentre il decoder di AE (deterministico) funziona solo per un punto che è già presente nel training. 

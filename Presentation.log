@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  8 MAY 2024 17:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  8 MAY 2024 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2207,7 +2207,11 @@ File: Pic/4_label_classification_task_Datacamp.png Graphic file (type png)
 Package pdftex.def Info: Pic/4_label_classification_task_Datacamp.png  used on 
 input line 202.
 (pdftex.def)             Requested size: 171.14764pt x 65.57326pt.
- [17
+
+
+LaTeX Warning: Citation 'pml2Book' on page 17 undefined on input line 202.
+
+[17
 
  <./Pic/4_label_classification_task_Datacamp.png>]
 <Pic/linear_regression.png, id=299, 621.07031pt x 434.37282pt>
@@ -2215,7 +2219,11 @@ File: Pic/linear_regression.png Graphic file (type png)
 <use Pic/linear_regression.png>
 Package pdftex.def Info: Pic/linear_regression.png  used on input line 233.
 (pdftex.def)             Requested size: 136.91603pt x 95.75452pt.
- [18
+
+
+LaTeX Warning: Citation 'pml2Book' on page 18 undefined on input line 233.
+
+[18
 
  <./Pic/linear_regression.png>]
 ! Undefined control sequence.
@@ -2245,6 +2253,9 @@ File: Pic/perceptron.png Graphic file (type png)
 <use Pic/perceptron.png>
 Package pdftex.def Info: Pic/perceptron.png  used on input line 266.
 (pdftex.def)             Requested size: 136.91603pt x 129.5417pt.
+
+LaTeX Warning: Citation 'pml2Book' on page 19 undefined on input line 266.
+
 [19
 
  <./Pic/perceptron.png>]
@@ -2254,7 +2265,11 @@ File: Pic/generative_v_discriminative.png Graphic file (type png)
 Package pdftex.def Info: Pic/generative_v_discriminative.png  used on input lin
 e 289.
 (pdftex.def)             Requested size: 171.14764pt x 95.76617pt.
- [20
+
+
+LaTeX Warning: Citation 'pml2Book' on page 20 undefined on input line 289.
+
+[20
 
  <./Pic/generative_v_discriminative.png (PNG copy)>]
 <Pic/generative_models.png, id=397, 411.03563pt x 386.44376pt>
@@ -2262,6 +2277,10 @@ File: Pic/generative_models.png Graphic file (type png)
 <use Pic/generative_models.png>
 Package pdftex.def Info: Pic/generative_models.png  used on input line 295.
 (pdftex.def)             Requested size: 239.60567pt x 225.26968pt.
+
+
+LaTeX Warning: Citation 'pml2Book' on page 21 undefined on input line 295.
+
 
 Overfull \vbox (4.1991pt too high) detected at line 295
  []
@@ -2275,7 +2294,11 @@ File: Pic/generative_models_example.png Graphic file (type png)
 Package pdftex.def Info: Pic/generative_models_example.png  used on input line 
 301.
 (pdftex.def)             Requested size: 171.14764pt x 213.85635pt.
- [22
+
+
+LaTeX Warning: Citation 'pml2Book' on page 22 undefined on input line 301.
+
+[22
 
  <./Pic/generative_models_example.png>]
 <Pic/autoencoder.png, id=441, 1957.3125pt x 1369.115pt>
@@ -2283,6 +2306,9 @@ File: Pic/autoencoder.png Graphic file (type png)
 <use Pic/autoencoder.png>
 Package pdftex.def Info: Pic/autoencoder.png  used on input line 321.
 (pdftex.def)             Requested size: 136.91603pt x 95.76427pt.
+
+
+LaTeX Warning: Citation 'pml2Book' on page 23 undefined on input line 321.
 
 [23
 
@@ -2310,7 +2336,11 @@ File: Pic/AE_vs_VAE.png Graphic file (type png)
 <use Pic/AE_vs_VAE.png>
 Package pdftex.def Info: Pic/AE_vs_VAE.png  used on input line 352.
 (pdftex.def)             Requested size: 41.07523pt x 26.72202pt.
- [25
+
+
+LaTeX Warning: Citation 'pml2Book' on page 25 undefined on input line 352.
+
+[25
 
  <./Pic/variational_auto_diag.png> <./Pic/AE_vs_VAE.png>]
 <Pic/var_generation.png, id=504, 443.15562pt x 268.00125pt>
@@ -2318,23 +2348,47 @@ File: Pic/var_generation.png Graphic file (type png)
 <use Pic/var_generation.png>
 Package pdftex.def Info: Pic/var_generation.png  used on input line 358.
 (pdftex.def)             Requested size: 273.83728pt x 165.61516pt.
- [26
 
- <./Pic/var_generation.png>] [27
 
-] [28
+LaTeX Warning: Citation 'pml2Book' on page 26 undefined on input line 358.
+
+[26
+
+ <./Pic/var_generation.png>]
+<Pic/GAN.png, id=535, 608.77437pt x 274.52562pt>
+File: Pic/GAN.png Graphic file (type png)
+<use Pic/GAN.png>
+Package pdftex.def Info: Pic/GAN.png  used on input line 386.
+(pdftex.def)             Requested size: 136.91603pt x 61.74046pt.
+File: Pic/AE_vs_VAE.png Graphic file (type png)
+<use Pic/AE_vs_VAE.png>
+Package pdftex.def Info: Pic/AE_vs_VAE.png  used on input line 386.
+(pdftex.def)             Requested size: 41.07523pt x 26.72202pt.
+
+
+LaTeX Warning: Citation 'pml2Book' on page 27 undefined on input line 386.
+
+
+Overfull \vbox (11.58856pt too high) detected at line 386
+ []
+
+[27
+
+ <./Pic/GAN.png>] [28
+
+] [29
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 391.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 420.
 
-[29
-
-] [30
-
+[30
 
 ] [31
+
+
+] [32
 
 
 ]
@@ -2356,18 +2410,26 @@ L3 programming layer <2024-02-13>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Presentation
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Presentation.run.xml'.
 \openout1 = `Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38553 strings out of 474462
- 778019 string characters out of 5752662
+ 38573 strings out of 474462
+ 778478 string characters out of 5752662
  1945998 words of memory out of 5000000
- 60039 multiletter control sequences out of 15000+600000
- 573660 words of font info for 94 fonts, out of 8000000 for 9000
+ 60057 multiletter control sequences out of 15000+600000
+ 573954 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,25n,123p,1910b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
@@ -2385,9 +2447,9 @@ r/eufm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Pr
 ogram Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb>
-Output written on Presentation.pdf (31 pages, 7461766 bytes).
+Output written on Presentation.pdf (32 pages, 7507619 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 81 named destinations out of 1000 (max. 500000)
- 801 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 705 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 902 words of extra memory for PDF output out of 10000 (max. 10000000)
 
