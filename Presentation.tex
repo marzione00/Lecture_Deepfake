@@ -187,7 +187,7 @@ Fondamenti teorici/computazionali
 \end{frame}
 
 
-\begin{frame}{Reti neurali \cite{pml1Book,classification_datacamp}}
+\begin{frame}{Reti neurali \cite{pml1Book,pml2Book,classification_datacamp}}
 
 \begin{alertblock}{Distribuzione di probabilità condizionata - idea }
 Abbiamo una serie di record che contengono delle variabili  input (dimensione del fiore, colore etc..) e una variabile di output (caso semplice, può essere generalizzato). Non sappiamo a priori come input e output siano legati (altrimenti avremmo risolto il problema !), ma siamo interessati a trovare una funzione di probabilità che associ degli input a degli output. $p(y=c|\textbf{x};\bm{\theta})=f_{c}(\textbf{x};\bm{\theta})$
@@ -203,7 +203,7 @@ Abbiamo una serie di record che contengono delle variabili  input (dimensione de
 
 
 
-\begin{frame}{Reti neurali \cite{pml1Book,classification_datacamp}}
+\begin{frame}{Reti neurali \cite{pml1Book,pml2Book,classification_datacamp}}
 
 
 \begin{columns}
@@ -235,7 +235,7 @@ Non esiste un modello che abbia performance migliori in tutti i casi possibili. 
 
 
 
-\begin{frame}{Reti neurali \cite{pml1Book}}
+\begin{frame}{Reti neurali \cite{pml1Book,pml2Book}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{alertblock}{Perceptrons}
@@ -267,7 +267,7 @@ a_{l}& =b_{l}+\textbf{W}_{l}\textbf{z}_{l-1}
 
 
 
-\begin{frame}{Modelli generativi \cite{google_generativeIA,pml1Book}}
+\begin{frame}{Modelli generativi \cite{google_generativeIA,pml1Book,pml2Book}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{alertblock}{Modello generativo}
@@ -288,20 +288,20 @@ Un modello generativo descrive come viene generato un set di dati utilizzando un
 \end{columns}
 \end{frame}
 
-\begin{frame}{Modelli generativi \cite{pml1Book}}
+\begin{frame}{Modelli generativi \cite{pml1Book,pml2Book}}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{Pic/generative_models.png}
 \end{center}
 \end{frame}
 
-\begin{frame}{Modelli generativi: esempi \cite{pml1Book}}
+\begin{frame}{Modelli generativi: esempi \cite{pml1Book,pml2Book}}
 \begin{center}
 \includegraphics[width=0.5\textwidth]{Pic/generative_models_example.png}
 \end{center}
 \end{frame}
 
 
-\begin{frame}{Autoencoders \cite{pml1Book}}
+\begin{frame}{Autoencoders \cite{pml1Book,pml2Book}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{alertblock}{Autoencoder}
@@ -327,7 +327,7 @@ L'unità in mezzo agisce come collo di bottiglia tra l'input e la sua ricostruzi
 \end{frame}
 
 
-\begin{frame}{Variational autoencoders \cite{pml1Book}}
+\begin{frame}{Variational autoencoders \cite{pml1Book,pml2Book}}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{alertblock}{Modello generativo}
@@ -350,6 +350,38 @@ La VAE, per come è costruita, è in grado di convertire punti casuali in output
 \end{column}
 \end{columns}
 \end{frame}
+
+\begin{frame}{VAR generation \cite{pml1Book,pml2Book}}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/var_generation.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Generative adversarial networks \cite{pml1Book,pml2Book}}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{alertblock}{Modello generativo}
+Un modello generativo descrive come viene generato un set di dati utilizzando un modello probabilistico $(p(x)\quad x\in X)$. Campionando da questo modello, siamo in grado di generare nuovi dati.
+\end{alertblock}
+\begin{alertblock}{Differenza rispetto agli AE}
+Rispetto agli autoencoder i variational autoencoder possono essere visti come una versione probabilistica di un autoencoder deterministico. In questo modo si può avere una IA generativa
+\end{alertblock}
+\end{column}
+\begin{column}{0.4\textwidth}  
+\begin{center}
+\includegraphics[width=\textwidth]{Pic/variational_auto_diag.png}
+\end{center}
+\begin{alertblock}{Remark}
+La VAE, per come è costruita, è in grado di convertire punti casuali in output, mentre il decoder di AE (deterministico) funziona solo per un punto che è già presente nel training. 
+\end{alertblock}
+\begin{center}
+\includegraphics[width=0.3\textwidth]{Pic/AE_vs_VAE.png}
+\end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+
 
 
 \section{Difesa: come rilevarle ?}

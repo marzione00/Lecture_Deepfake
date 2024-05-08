@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  8 MAY 2024 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  8 MAY 2024 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2312,21 +2312,29 @@ Package pdftex.def Info: Pic/AE_vs_VAE.png  used on input line 352.
 (pdftex.def)             Requested size: 41.07523pt x 26.72202pt.
  [25
 
- <./Pic/variational_auto_diag.png> <./Pic/AE_vs_VAE.png>] [26
+ <./Pic/variational_auto_diag.png> <./Pic/AE_vs_VAE.png>]
+<Pic/var_generation.png, id=504, 443.15562pt x 268.00125pt>
+File: Pic/var_generation.png Graphic file (type png)
+<use Pic/var_generation.png>
+Package pdftex.def Info: Pic/var_generation.png  used on input line 358.
+(pdftex.def)             Requested size: 273.83728pt x 165.61516pt.
+ [26
 
-] [27
+ <./Pic/var_generation.png>] [27
+
+] [28
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 384.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 391.
 
-[28
-
-] [29
-
+[29
 
 ] [30
+
+
+] [31
 
 
 ]
@@ -2355,10 +2363,10 @@ Package logreq Info: Writing requests to 'Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38544 strings out of 474462
- 778016 string characters out of 5752662
+ 38553 strings out of 474462
+ 778019 string characters out of 5752662
  1945998 words of memory out of 5000000
- 60032 multiletter control sequences out of 15000+600000
+ 60039 multiletter control sequences out of 15000+600000
  573660 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,25n,123p,1910b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2377,9 +2385,9 @@ r/eufm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Pr
 ogram Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb>
-Output written on Presentation.pdf (30 pages, 6647143 bytes).
+Output written on Presentation.pdf (31 pages, 7461766 bytes).
 PDF statistics:
- 654 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 796 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 665 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 801 words of extra memory for PDF output out of 10000 (max. 10000000)
 
