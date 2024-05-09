@@ -57,6 +57,47 @@
   \field{howpublished}{\url{https://developers.google.com/machine-learning/gan/generative?hl=it}}
   \endentry
 
+  \entry{jeronymo2017image}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JDC}{%
+         family={Jeronymo},
+         familyi={J\bibinitperiod},
+         given={Daniel\bibnamedelima Cavalcanti},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BYCC}{%
+         family={Borges},
+         familyi={B\bibinitperiod},
+         given={Yuri Cassio\bibnamedelima Campbell},
+         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=dSCL}{%
+         prefix={dos},
+         prefixi={d\bibinitperiod},
+         family={Santos\bibnamedelima Coelho},
+         familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Leandro},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{JDCBYCCSCLd1}
+    \strng{fullhash}{JDCBYCCSCLd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{348\bibrangedash 356}
+    \field{title}{Image forgery detection by semi-automatic wavelet
+  soft-thresholding with error level analysis}
+    \field{volume}{85}
+    \field{journaltitle}{Expert Systems with Applications}
+    \field{year}{2017}
+  \endentry
+
   \entry{masood2023deepfakes}{article}{}
     \name{author}{6}{}{%
       {{hash=MM}{%

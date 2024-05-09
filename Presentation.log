@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  9 MAY 2024 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  9 MAY 2024 14:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2343,19 +2343,48 @@ Package pdftex.def Info: Pic/GAN_example.png  used on input line 390.
 
  <./Pic/GAN_example.png>] [29
 
-] [30
+]
+<Pic/deepfake_detection.png, id=580, 605.26125pt x 264.48813pt>
+File: Pic/deepfake_detection.png Graphic file (type png)
+<use Pic/deepfake_detection.png>
+Package pdftex.def Info: Pic/deepfake_detection.png  used on input line 406.
+(pdftex.def)             Requested size: 273.83728pt x 119.66023pt.
+ [30
+
+ <./Pic/deepfake_detection.png>]
+<Pic/ELA_FULL.png, id=590, 952.55875pt x 336.25626pt>
+File: Pic/ELA_FULL.png Graphic file (type png)
+<use Pic/ELA_FULL.png>
+Package pdftex.def Info: Pic/ELA_FULL.png  used on input line 413.
+(pdftex.def)             Requested size: 273.83728pt x 96.66522pt.
+ [31
+
+ <./Pic/ELA_FULL.png>]
+<Pic/ELA+DEEP.png, id=602, 662.97687pt x 279.0425pt>
+File: Pic/ELA+DEEP.png Graphic file (type png)
+<use Pic/ELA+DEEP.png>
+Package pdftex.def Info: Pic/ELA+DEEP.png  used on input line 419.
+(pdftex.def)             Requested size: 273.83728pt x 115.25546pt.
+
+
+LaTeX Warning: Citation 'rafique2023deep' on page 32 undefined on input line 41
+9.
+
+[32
+
+ <./Pic/ELA+DEEP.png>] [33
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 422.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 442.
 
-[31
+[34
 
-] [32
+] [35
 
 
-] [33
+] [36
 
 
 ]
@@ -2383,18 +2412,20 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package biblatex Warning: Please rerun LaTeX.
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Presentation
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'Presentation.run.xml'.
 \openout1 = `Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38607 strings out of 474462
- 779518 string characters out of 5752662
- 1945998 words of memory out of 5000000
- 60087 multiletter control sequences out of 15000+600000
- 573660 words of font info for 94 fonts, out of 8000000 for 9000
+ 38646 strings out of 474462
+ 780406 string characters out of 5752662
+ 1946998 words of memory out of 5000000
+ 60119 multiletter control sequences out of 15000+600000
+ 573954 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,25n,123p,1910b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
@@ -2413,9 +2444,9 @@ ex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
 m Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/euler/eusm10.pfb>
-Output written on Presentation.pdf (33 pages, 8638189 bytes).
+Output written on Presentation.pdf (36 pages, 11561886 bytes).
 PDF statistics:
- 730 PDF objects out of 1000 (max. 8388607)
- 87 named destinations out of 1000 (max. 500000)
- 888 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 761 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 903 words of extra memory for PDF output out of 10000 (max. 10000000)
 
