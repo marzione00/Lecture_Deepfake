@@ -3,5 +3,5 @@
 \beamer@sectionintoc {1}{Definizioni}{3}{0}{1}
 \beamer@sectionintoc {2}{Breve storia}{7}{0}{2}
 \beamer@sectionintoc {3}{Fondamenti teorici/computazionali}{16}{0}{3}
-\beamer@sectionintoc {4}{Difesa: come rilevarle ?}{28}{0}{4}
-\beamer@sectionintoc {5}{Aspetti legali}{29}{0}{5}
+\beamer@sectionintoc {4}{Difesa: come rilevarle ?}{29}{0}{4}
+\beamer@sectionintoc {5}{Aspetti legali}{30}{0}{5}

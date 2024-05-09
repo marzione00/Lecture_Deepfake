@@ -114,6 +114,31 @@
     \field{year}{2023}
   \endentry
 
+  \entry{pml2Book}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MKP}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Kevin\bibnamedelima P.},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{MKP1}
+    \strng{fullhash}{MKP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Probabilistic Machine Learning: Advanced Topics}
+    \verb{url}
+    \verb http://probml.github.io/book2
+    \endverb
+    \field{year}{2023}
+  \endentry
+
   \entry{pml1Book}{book}{}
     \name{author}{1}{}{%
       {{hash=MKP}{%
@@ -137,6 +162,53 @@
     \verb probml.ai
     \endverb
     \field{year}{2022}
+  \endentry
+
+  \entry{nguyen2017plug}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=NA}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Anh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Clune},
+         familyi={C\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dosovitskiy},
+         familyi={D\bibinitperiod},
+         given={Alexey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yosinski},
+         familyi={Y\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NA+1}
+    \strng{fullhash}{NACJBYDAYJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}
+    \field{pages}{4467\bibrangedash 4477}
+    \field{title}{Plug \& play generative networks: Conditional iterative
+  generation of images in latent space}
+    \field{year}{2017}
   \endentry
 \enddatalist
 \endinput

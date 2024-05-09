@@ -367,25 +367,27 @@ Ho due reti neurali
 \item Discriminatore: distinguere i dati nuovi da quelli veri
 \end{itemize}
 \end{alertblock}
-\begin{alertblock}{Differenza rispetto agli AE}
-Rispetto agli autoencoder i variational autoencoder possono essere visti come una versione probabilistica di un autoencoder deterministico. In questo modo si può avere una IA generativa
+\begin{alertblock}{Apprendimento}
+$\min_{G}\max_{D} E_{x\sim p_{data}(x)} \left[\log D(x)\right]+E_{z\sim p_{z}(z)}\left[\log (1-D(G(z))))\right]$
 \end{alertblock}
 \end{column}
 \begin{column}{0.4\textwidth}  
 \begin{center}
 \includegraphics[width=\textwidth]{Pic/GAN.png}
 \end{center}
-\begin{alertblock}{Remark}
-La VAE, per come è costruita, è in grado di convertire punti casuali in output, mentre il decoder di AE (deterministico) funziona solo per un punto che è già presente nel training. 
-\end{alertblock}
 \begin{center}
-\includegraphics[width=0.3\textwidth]{Pic/AE_vs_VAE.png}
+\includegraphics[width=\textwidth]{Pic/algorithm_GAN.png}
 \end{center}
 \end{column}
 \end{columns}
 \end{frame}
 
 
+\begin{frame}{VAR generation \cite{nguyen2017plug}}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Pic/GAN_example.png}
+\end{center}
+\end{frame}
 
 
 \section{Difesa: come rilevarle ?}
