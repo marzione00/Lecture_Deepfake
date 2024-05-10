@@ -26,48 +26,56 @@ Repeated entry---line 57 of file bibliography.bib
  : @misc{wsj_audio
  :                ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 107 of file bibliography.bib
+ : @article{masood2023deepfakes
+ :                             ,
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 120 of file bibliography.bib
+ :   howpublished = "\url{https://www.smartius.it/data-it-law/reato-usare-deepfake/}
+ :                                                                                  }
+I'm skipping whatever remains of this entry
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 16 entries,
+You've used 18 entries,
             6399 wiz_defined-function locations,
-            1258 strings with 11068 characters,
-and the built_in function-call counts, 66086 in all, are:
-= -- 4810
-> -- 643
-< -- 310
-+ -- 1510
-- -- 237
-* -- 4143
-:= -- 6581
+            1265 strings with 11350 characters,
+and the built_in function-call counts, 82785 in all, are:
+= -- 6276
+> -- 795
+< -- 379
++ -- 2042
+- -- 286
+* -- 5215
+:= -- 8494
 add.period$ -- 0
-call.type$ -- 16
-change.case$ -- 95
+call.type$ -- 18
+change.case$ -- 140
 chr.to.int$ -- 42
-cite$ -- 30
-duplicate$ -- 7033
-empty$ -- 6868
-format.name$ -- 385
-if$ -- 13807
+cite$ -- 34
+duplicate$ -- 8876
+empty$ -- 8320
+format.name$ -- 488
+if$ -- 17138
 int.to.chr$ -- 0
-int.to.str$ -- 26
+int.to.str$ -- 30
 missing$ -- 0
-newline$ -- 250
-num.names$ -- 257
-pop$ -- 5333
+newline$ -- 309
+num.names$ -- 334
+pop$ -- 6104
 preamble$ -- 1
-purify$ -- 119
+purify$ -- 175
 quote$ -- 0
-skip$ -- 1669
+skip$ -- 2003
 stack$ -- 0
-substring$ -- 8782
-swap$ -- 1288
-text.length$ -- 296
-text.prefix$ -- 15
+substring$ -- 11467
+swap$ -- 1565
+text.length$ -- 336
+text.prefix$ -- 17
 top$ -- 1
-type$ -- 532
+type$ -- 600
 warning$ -- 0
-while$ -- 772
+while$ -- 1008
 width$ -- 0
-write$ -- 235
-(There was 1 error message)
+write$ -- 292
+(There were 3 error messages)

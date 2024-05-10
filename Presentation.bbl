@@ -57,6 +57,9 @@
   \field{howpublished}{\url{https://developers.google.com/machine-learning/gan/generative?hl=it}}
   \endentry
 
+  \entry{deepfake_jus}{misc}{}
+  \endentry
+
   \entry{jeronymo2017image}{article}{}
     \name{author}{3}{}{%
       {{hash=JDC}{%
@@ -250,6 +253,63 @@
     \field{title}{Plug \& play generative networks: Conditional iterative
   generation of images in latent space}
     \field{year}{2017}
+  \endentry
+
+  \entry{rafique2023deep}{article}{}
+    \name{author}{6}{}{%
+      {{hash=RR}{%
+         family={Rafique},
+         familyi={R\bibinitperiod},
+         given={Rimsha},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gantassi},
+         familyi={G\bibinitperiod},
+         given={Rahma},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Amin},
+         familyi={A\bibinitperiod},
+         given={Rashid},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Frnda},
+         familyi={F\bibinitperiod},
+         given={Jaroslav},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mustapha},
+         familyi={M\bibinitperiod},
+         given={Aida},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AAH}{%
+         family={Alshehri},
+         familyi={A\bibinitperiod},
+         given={Asma\bibnamedelima Hassan},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{RR+1}
+    \strng{fullhash}{RRGRARFJMAAAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{1}
+    \field{pages}{7422}
+    \field{title}{Deep fake detection and classification using error-level
+  analysis and deep learning}
+    \field{volume}{13}
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2023}
   \endentry
 \enddatalist
 \endinput

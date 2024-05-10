@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  9 MAY 2024 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  10 MAY 2024 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2365,26 +2365,28 @@ File: Pic/ELA+DEEP.png Graphic file (type png)
 <use Pic/ELA+DEEP.png>
 Package pdftex.def Info: Pic/ELA+DEEP.png  used on input line 419.
 (pdftex.def)             Requested size: 273.83728pt x 115.25546pt.
-
-
-LaTeX Warning: Citation 'rafique2023deep' on page 32 undefined on input line 41
-9.
-
-[32
+ [32
 
  <./Pic/ELA+DEEP.png>] [33
+
+] [34
+
+] [35
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 442.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 459.
 
-[34
+[36
 
-] [35
+] [37
 
 
-] [36
+] [38
+
+
+] [39
 
 
 ]
@@ -2406,26 +2408,18 @@ L3 programming layer <2024-02-13>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                Presentation
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'Presentation.run.xml'.
 \openout1 = `Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38646 strings out of 474462
- 780406 string characters out of 5752662
+ 38675 strings out of 474462
+ 781189 string characters out of 5752662
  1946998 words of memory out of 5000000
- 60119 multiletter control sequences out of 15000+600000
- 573954 words of font info for 95 fonts, out of 8000000 for 9000
+ 60140 multiletter control sequences out of 15000+600000
+ 574259 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,25n,123p,1910b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Progr
@@ -2444,9 +2438,9 @@ ex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb>
 m Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurb10.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/euler/eusm10.pfb>
-Output written on Presentation.pdf (36 pages, 11561886 bytes).
+Output written on Presentation.pdf (39 pages, 11574338 bytes).
 PDF statistics:
- 761 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 903 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 801 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 939 words of extra memory for PDF output out of 10000 (max. 10000000)
 
