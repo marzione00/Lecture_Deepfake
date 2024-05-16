@@ -5,3 +5,4 @@
 \beamer@sectionintoc {3}{Fondamenti teorici/computazionali}{16}{0}{3}
 \beamer@sectionintoc {4}{Difesa: come rilevarle ?}{29}{0}{4}
 \beamer@sectionintoc {5}{Aspetti legali}{33}{0}{5}
+\beamer@sectionintoc {6}{Manipolazione}{36}{0}{6}

@@ -30,52 +30,48 @@ Repeated entry---line 107 of file bibliography.bib
  : @article{masood2023deepfakes
  :                             ,
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 120 of file bibliography.bib
- :   howpublished = "\url{https://www.smartius.it/data-it-law/reato-usare-deepfake/}
- :                                                                                  }
-I'm skipping whatever remains of this entry
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 18 entries,
+You've used 23 entries,
             6399 wiz_defined-function locations,
-            1265 strings with 11350 characters,
-and the built_in function-call counts, 82785 in all, are:
-= -- 6276
+            1280 strings with 11940 characters,
+and the built_in function-call counts, 89777 in all, are:
+= -- 6451
 > -- 795
-< -- 379
-+ -- 2042
+< -- 449
++ -- 2047
 - -- 286
-* -- 5215
-:= -- 8494
+* -- 5397
+:= -- 8619
 add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 140
+call.type$ -- 23
+change.case$ -- 145
 chr.to.int$ -- 42
-cite$ -- 34
-duplicate$ -- 8876
-empty$ -- 8320
+cite$ -- 44
+duplicate$ -- 9874
+empty$ -- 9513
 format.name$ -- 488
-if$ -- 17138
+if$ -- 18821
 int.to.chr$ -- 0
-int.to.str$ -- 30
+int.to.str$ -- 35
 missing$ -- 0
-newline$ -- 309
+newline$ -- 330
 num.names$ -- 334
-pop$ -- 6104
+pop$ -- 7797
 preamble$ -- 1
 purify$ -- 175
 quote$ -- 0
-skip$ -- 2003
+skip$ -- 2318
 stack$ -- 0
-substring$ -- 11467
-swap$ -- 1565
-text.length$ -- 336
-text.prefix$ -- 17
+substring$ -- 11472
+swap$ -- 1801
+text.length$ -- 401
+text.prefix$ -- 22
 top$ -- 1
-type$ -- 600
+type$ -- 770
 warning$ -- 0
-while$ -- 1008
+while$ -- 1018
 width$ -- 0
-write$ -- 292
-(There were 3 error messages)
+write$ -- 308
+(There were 2 error messages)

@@ -58,6 +58,28 @@
   \endentry
 
   \entry{deepfake_jus}{misc}{}
+  \field{howpublished}{\url{https://www.smartius.it/data-it-law/reato-usare-deepfake/}}
+  \endentry
+
+  \entry{CA_pic}{misc}{}
+  \field{howpublished}{\url{https://www.ansa.it/sito/notizie/tecnologia/internet_social/2019/06/28/garante-privacy-multa-1-mln-a-facebook-per-cambridge-analytica_ec9234f5-caae-4485-9beb-e092137a4d67.html}}
+  \endentry
+
+  \entry{CA_timeline}{misc}{}
+    \field{howpublished}{\url{https://www.bbc.com/news/business-43983958}}
+  \endentry
+
+  \entry{CA_it2}{misc}{}
+    \field{howpublished}{\url{
+  https://finanza.lastampa.it/News/2022/12/23/meta-paga-725-milioni-di-dollari-per-risolvere-class-action-cambridge-analytica/NzVfMjAyMi0xMi0yM19UTEI}}
+  \endentry
+
+  \entry{CA_it}{misc}{}
+  \field{howpublished}{\url{https://www.ansa.it/sito/notizie/tecnologia/internet_social/2019/06/28/garante-privacy-multa-1-mln-a-facebook-per-cambridge-analytica_ec9234f5-caae-4485-9beb-e092137a4d67.html}}
+  \endentry
+
+  \entry{CA_rev}{misc}{}
+  \field{howpublished}{\url{https://www.statista.com/statistics/268604/annual-revenue-of-facebook/}}
   \endentry
 
   \entry{jeronymo2017image}{article}{}
