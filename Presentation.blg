@@ -30,48 +30,53 @@ Repeated entry---line 107 of file bibliography.bib
  : @article{masood2023deepfakes
  :                             ,
 I'm skipping whatever remains of this entry
+Illegal end of database file---line 166 of file bibliography.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 23 entries,
+You've used 30 entries,
             6399 wiz_defined-function locations,
-            1280 strings with 11940 characters,
-and the built_in function-call counts, 89777 in all, are:
-= -- 6451
+            1292 strings with 12556 characters,
+and the built_in function-call counts, 99513 in all, are:
+= -- 6696
 > -- 795
-< -- 449
-+ -- 2047
+< -- 547
++ -- 2054
 - -- 286
-* -- 5397
-:= -- 8619
+* -- 5635
+:= -- 8794
 add.period$ -- 0
-call.type$ -- 23
-change.case$ -- 145
+call.type$ -- 30
+change.case$ -- 152
 chr.to.int$ -- 42
-cite$ -- 44
-duplicate$ -- 9874
-empty$ -- 9513
+cite$ -- 58
+duplicate$ -- 11264
+empty$ -- 11176
 format.name$ -- 488
-if$ -- 18821
+if$ -- 21170
 int.to.chr$ -- 0
-int.to.str$ -- 35
+int.to.str$ -- 42
 missing$ -- 0
-newline$ -- 330
+newline$ -- 357
 num.names$ -- 334
-pop$ -- 7797
+pop$ -- 10172
 preamble$ -- 1
 purify$ -- 175
 quote$ -- 0
-skip$ -- 2318
+skip$ -- 2759
 stack$ -- 0
-substring$ -- 11472
-swap$ -- 1801
-text.length$ -- 401
-text.prefix$ -- 22
+substring$ -- 11479
+swap$ -- 2117
+text.length$ -- 492
+text.prefix$ -- 29
 top$ -- 1
-type$ -- 770
+type$ -- 1008
 warning$ -- 0
-while$ -- 1018
+while$ -- 1032
 width$ -- 0
-write$ -- 308
-(There were 2 error messages)
+write$ -- 328
+(There were 3 error messages)

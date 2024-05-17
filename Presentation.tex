@@ -32,7 +32,7 @@
 \usepackage[italian]{babel}
 \usepackage[utf8x]{inputenc}
 \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Pic/Cover_image.png}}
-\title[Deepfake]{Deepfake}}
+\title[Manipolazione e Deepfake]{Manipolazione dei social media e deepfake}}
 \author{Marzio De Corato}
 \date{\today}
 
@@ -56,6 +56,125 @@
   \tableofcontents
 \end{center}
 \end{frame}
+
+\section{Motivazione}
+
+\begin{frame}
+\begin{center}
+\Huge
+Motivazione
+\end{center}
+\end{frame}
+
+\begin{frame}{Cambridge Analytica \cite{CA_pic}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/CA_pic.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Cambridge Analytica \cite{CA_timeline}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/cambridge_analitica_timeline.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Cambridge Analytica \cite{CA_it2}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/FB_CA.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Cambridge Analytica \cite{CA_it}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/FA_CA_ITA.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Cambridge Analytica \cite{CA_rev}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/FB_REV.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Mia Ash}
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Pic/mia_ASH.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Mia Ash \cite{mia_ash_lin}}
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Pic/linkedfake.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Mia Ash \cite{mia_ash_lin}}
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Pic/linkedfake.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Mia Ash \cite{mia_ash_lin}}
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{Pic/linkedinnet.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Mia Ash \cite{mia_ash_reuters}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/reuters_miaash.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{IA generativa per il phishing \cite{genia_minacce}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/GEN_IA_minacce.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{IA generativa per il phishing \cite{genia_gur}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/AI_phishing.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}{Click Farm \cite{clickfarm}}
+
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/cnn_click_farm.png}
+\end{center}
+
+\end{frame}
+
+
 
 \section{Definizioni}
 
@@ -93,6 +212,8 @@ Una branca dell'informatica dedicata allo sviluppo di sistemi di elaborazione da
 \end{center}
 
 \end{frame}
+
+
 
 
 
@@ -203,27 +324,18 @@ Abbiamo una serie di record che contengono delle variabili  input (dimensione de
 
 
 
-\begin{frame}{Reti neurali \cite{pml1Book,pml2Book,classification_datacamp}}
+\begin{frame}{Reti neurali \cite{pml1Book,pml2Book,classification,regression}}
 
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
-\begin{alertblock}{Regressione lineare}
-$f(x;\bm{\theta})=b+wx$
-\end{alertblock}
-\begin{alertblock}{Regressione polinomiale}
-$f(\textbf{x};\textbf{w})=w_{0}+w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{1}^{2}+w_{4}x^{2}_{2}$
-\end{alertblock}
-\begin{alertblock}{Non-linear feature extraction}
-$f(\textbf{x};\textbf{w};\textbf{V})=w^{T}\phi(\textbf{x};\textbf{V})$
-\end{alertblock}
-\begin{alertblock}{Deep neural network}
-$f(\textbf{x};\bm{\theta})=f_{L}(f_{L-1}(...(f_{1}(x))...)$
-\end{alertblock}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{Pic/regression.png}
+\end{center}
 \end{column}
 \begin{column}{0.4\textwidth}  
 \begin{center}
-\includegraphics[width=\textwidth]{Pic/linear_regression.png}
+\includegraphics[width=0.6\textwidth]{Pic/classification.png}
 \end{center}
 \begin{alertblock}{No free lunch theorem}
 Non esiste un modello che abbia performance migliori in tutti i casi possibili. Ciò è dovuto al fatto che ogni modello fa delle assunzioni.
@@ -236,33 +348,9 @@ Non esiste un modello che abbia performance migliori in tutti i casi possibili. 
 
 
 \begin{frame}{Reti neurali \cite{pml1Book,pml2Book}}
-\begin{columns}
-\begin{column}{0.5\textwidth}
-\begin{alertblock}{Perceptrons}
-\begin{equation*}
-\begin{split}
-&f(\textbf{x};\bm{\theta})=\\
-&=\mathds{1}(\textbf{w}^{T}\textbf{x}+b \geq 0)\\
-&=H(\textbf{w}^{T}x+b)
-\end{split}
-\end{equation*}
-\end{alertblock}
-\begin{alertblock}{MLP}
-\begin{equation*}
-\begin{split}
-z_{l}& =f_{l}(z_{l-1})=\varphi(\textbf{b}_l+\textbf{W}_{l}z_{l-1}) \\
-z_{kl}& =\varphi_{l}\left(b_{kl}+\sum^{K_{l-1}}_{j=1}w_{lkj}z_{jl-1}\right) \\
-a_{l}& =b_{l}+\textbf{W}_{l}\textbf{z}_{l-1}
-\end{split}
-\end{equation*}
-\end{alertblock}
-\end{column}
-\begin{column}{0.4\textwidth}  
 \begin{center}
-\includegraphics[width=\textwidth]{Pic/perceptron.png}
+\includegraphics[width=0.7\textwidth]{Pic/perceptron.png}
 \end{center}
-\end{column}
-\end{columns}
 \end{frame}
 
 
@@ -367,9 +455,6 @@ Ho due reti neurali
 \item Discriminatore: distinguere i dati nuovi da quelli veri
 \end{itemize}
 \end{alertblock}
-\begin{alertblock}{Apprendimento}
-$\min_{G}\max_{D} E_{x\sim p_{data}(x)} \left[\log D(x)\right]+E_{z\sim p_{z}(z)}\left[\log (1-D(G(z))))\right]$
-\end{alertblock}
 \end{column}
 \begin{column}{0.4\textwidth}  
 \begin{center}
@@ -453,57 +538,10 @@ Aspetti legali
 %\end{center}
 
 
-\section{Manipolazione}
 
 
-\begin{frame}
-\begin{center}
-\Huge
-Manipolazione
-\end{center}
-\end{frame}
-
-\begin{frame}{Cambridge Analytica \cite{CA_pic}}
-
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Pic/CA_pic.png}
-\end{center}
-
-\end{frame}
-
-\begin{frame}{Cambridge Analytica \cite{CA_timeline}}
-
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Pic/cambridge_analitica_timeline.png}
-\end{center}
-
-\end{frame}
 
 
-\begin{frame}{Cambridge Analytica \cite{CA_it2}}
-
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Pic/FB_CA.png}
-\end{center}
-
-\end{frame}
-
-\begin{frame}{Cambridge Analytica \cite{CA_it}}
-
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Pic/FA_CA_ITA.png}
-\end{center}
-
-\end{frame}
-
-
-\begin{frame}{Cambridge Analytica \cite{CA_rev}}
-
-\begin{center}
-\includegraphics[width=0.8\textwidth]{Pic/FB_REV.png}
-\end{center}
-
-\end{frame}
 
 
 

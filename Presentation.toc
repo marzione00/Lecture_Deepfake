@@ -1,8 +1,8 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\beamer@sectionintoc {1}{Definizioni}{3}{0}{1}
-\beamer@sectionintoc {2}{Breve storia}{7}{0}{2}
-\beamer@sectionintoc {3}{Fondamenti teorici/computazionali}{16}{0}{3}
-\beamer@sectionintoc {4}{Difesa: come rilevarle ?}{29}{0}{4}
-\beamer@sectionintoc {5}{Aspetti legali}{33}{0}{5}
-\beamer@sectionintoc {6}{Manipolazione}{36}{0}{6}
+\beamer@sectionintoc {1}{Motivazione}{3}{0}{1}
+\beamer@sectionintoc {2}{Definizioni}{17}{0}{2}
+\beamer@sectionintoc {3}{Breve storia}{21}{0}{3}
+\beamer@sectionintoc {4}{Fondamenti teorici/computazionali}{30}{0}{4}
+\beamer@sectionintoc {5}{Difesa: come rilevarle ?}{43}{0}{5}
+\beamer@sectionintoc {6}{Aspetti legali}{47}{0}{6}
