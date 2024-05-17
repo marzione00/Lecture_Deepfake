@@ -30,17 +30,18 @@ Repeated entry---line 107 of file bibliography.bib
  : @article{masood2023deepfakes
  :                             ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 166 of file bibliography.bib
+Illegal end of database file---line 170 of file bibliography.bib
  : 
  : 
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "fr"
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 You've used 30 entries,
             6399 wiz_defined-function locations,
-            1292 strings with 12556 characters,
+            1293 strings with 12558 characters,
 and the built_in function-call counts, 99513 in all, are:
 = -- 6696
 > -- 795
