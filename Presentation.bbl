@@ -57,6 +57,10 @@
   \entry{clickfarm}{misc}{}
   \endentry
 
+  \entry{social_nano}{misc}{}
+  \field{howpublished}{\url{https://mediaengagement.org/research/social-media-influencers-and-the-2020-election/}}
+  \endentry
+
   \entry{nsa_definition}{misc}{}
   \field{howpublished}{\url{https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3523329/nsa-us-federal-agencies-advise-on-deepfake-threats/}}
   \endentry
@@ -103,6 +107,10 @@
 
   \entry{google_generativeIA}{misc}{}
   \field{howpublished}{\url{https://developers.google.com/machine-learning/gan/generative?hl=it}}
+  \endentry
+
+  \entry{fr}{misc}{}
+    \field{howpublished}{\url{https://29a.ch/photo-forensics/#help}}
   \endentry
 
   \entry{deepfake_jus}{misc}{}

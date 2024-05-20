@@ -30,54 +30,52 @@ Repeated entry---line 107 of file bibliography.bib
  : @article{masood2023deepfakes
  :                             ,
 I'm skipping whatever remains of this entry
-Illegal end of database file---line 170 of file bibliography.bib
- : 
- : 
-(Error may have been on previous line)
+Unbalanced braces---line 165 of file bibliography.bib
+ :   howpublished = "\url{https://edition.cnn.com/style/vietnam-farms-jack-latham-beggars-honey/index.html"}
+ :                                                                                                          }
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "fr"
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 30 entries,
+You've used 32 entries,
             6399 wiz_defined-function locations,
-            1293 strings with 12558 characters,
-and the built_in function-call counts, 99513 in all, are:
-= -- 6696
+            1296 strings with 12701 characters,
+and the built_in function-call counts, 102301 in all, are:
+= -- 6766
 > -- 795
-< -- 547
-+ -- 2054
+< -- 575
++ -- 2056
 - -- 286
-* -- 5635
-:= -- 8794
+* -- 5705
+:= -- 8844
 add.period$ -- 0
-call.type$ -- 30
-change.case$ -- 152
+call.type$ -- 32
+change.case$ -- 154
 chr.to.int$ -- 42
-cite$ -- 58
-duplicate$ -- 11264
-empty$ -- 11176
+cite$ -- 62
+duplicate$ -- 11662
+empty$ -- 11652
 format.name$ -- 488
-if$ -- 21170
+if$ -- 21842
 int.to.chr$ -- 0
-int.to.str$ -- 42
+int.to.str$ -- 44
 missing$ -- 0
-newline$ -- 357
+newline$ -- 365
 num.names$ -- 334
-pop$ -- 10172
+pop$ -- 10850
 preamble$ -- 1
 purify$ -- 175
 quote$ -- 0
-skip$ -- 2759
+skip$ -- 2885
 stack$ -- 0
-substring$ -- 11479
-swap$ -- 2117
-text.length$ -- 492
-text.prefix$ -- 29
+substring$ -- 11481
+swap$ -- 2209
+text.length$ -- 518
+text.prefix$ -- 31
 top$ -- 1
-type$ -- 1008
+type$ -- 1076
 warning$ -- 0
-while$ -- 1032
+while$ -- 1036
 width$ -- 0
-write$ -- 328
+write$ -- 334
 (There were 3 error messages)
