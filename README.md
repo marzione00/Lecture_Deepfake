@@ -1,6 +1,19 @@
-## Lecture_Deepfake
+# Lecture_Deepfake
 
-# Tutorial pratico: 
+## Esempi di video deepfake
+
+https://www.youtube.com/watch?v=AmUC4m6w1wo
+
+https://www.youtube.com/watch?v=WzK1MBEpkJ0
+
+https://www.youtube.com/watch?v=sDOo5nDJwgA&t=120s
+
+https://www.youtube.com/watch?v=WFc6t-c892A
+
+https://www.youtube.com/watch?v=oxXpB9pSETo
+
+
+## Tutorial pratico: 
 
 - Visualizzazione dei codici per VAE e GAN (con diverse risoluzioni)
 
