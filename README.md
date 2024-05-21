@@ -21,5 +21,5 @@ https://www.youtube.com/watch?v=oxXpB9pSETo
 
 - Generazione di immagini con https://firefly.adobe.com/
 
-- Cosa succede con https://29a.ch/photo-forensics/#forensic-magnifier ?
+- Cosa succede se si usa  https://29a.ch/photo-forensics/#forensic-magnifier con le immagini generate da Adobe ?
 
