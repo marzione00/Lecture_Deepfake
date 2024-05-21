@@ -1,0 +1,376 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{CA_pic}{misc}{}
+  \field{howpublished}{\url{https://www.ansa.it/sito/notizie/tecnologia/internet_social/2019/06/28/garante-privacy-multa-1-mln-a-facebook-per-cambridge-analytica_ec9234f5-caae-4485-9beb-e092137a4d67.html}}
+  \endentry
+
+  \entry{CA_timeline}{misc}{}
+    \field{howpublished}{\url{https://www.bbc.com/news/business-43983958}}
+  \endentry
+
+  \entry{CA_it2}{misc}{}
+    \field{howpublished}{\url{
+  https://finanza.lastampa.it/News/2022/12/23/meta-paga-725-milioni-di-dollari-per-risolvere-class-action-cambridge-analytica/NzVfMjAyMi0xMi0yM19UTEI}}
+  \endentry
+
+  \entry{CA_it}{misc}{}
+  \field{howpublished}{\url{https://www.ansa.it/sito/notizie/tecnologia/internet_social/2019/06/28/garante-privacy-multa-1-mln-a-facebook-per-cambridge-analytica_ec9234f5-caae-4485-9beb-e092137a4d67.html}}
+  \endentry
+
+  \entry{CA_rev}{misc}{}
+  \field{howpublished}{\url{https://www.statista.com/statistics/268604/annual-revenue-of-facebook/}}
+  \endentry
+
+  \entry{mia_ash_lin}{misc}{}
+  \field{howpublished}{\url{https://www.secureworks.com/research/suspected-iran-based-hacker-group-creates-network-of-fake-linkedin-profiles}}
+  \endentry
+
+  \entry{mia_ash_reuters}{misc}{}
+  \field{howpublished}{\url{https://www.reuters.com/article/us-cyber-conference-iran/iranian-hackers-used-female-honey-pot-to-lure-targets-researchers-idUSKBN1AC28L/}}
+  \endentry
+
+  \entry{genia_minacce}{misc}{}
+  \field{howpublished}{\url{https://www.theguardian.com/technology/2024/jan/24/ai-scam-emails-uk-cybersecurity-agency-phishing}}
+  \endentry
+
+  \entry{genia_gur}{misc}{}
+  \field{howpublished}{\url{https://www.theguardian.com/technology/2024/jan/24/ai-scam-emails-uk-cybersecurity-agency-phishing}}
+  \endentry
+
+  \entry{clickfarm}{misc}{}
+  \endentry
+
+  \entry{social_nano}{misc}{}
+  \field{howpublished}{\url{https://mediaengagement.org/research/social-media-influencers-and-the-2020-election/}}
+  \endentry
+
+  \entry{nsa_definition}{misc}{}
+  \field{howpublished}{\url{https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/3523329/nsa-us-federal-agencies-advise-on-deepfake-threats/}}
+  \endentry
+
+  \entry{nist_definitioN_AI}{misc}{}
+  \field{howpublished}{\url{https://csrc.nist.gov/topics/technologies/artificial-intelligence}}
+  \endentry
+
+  \entry{tassonomia}{misc}{}
+  \field{howpublished}{\url{https://journals.ametsoc.org/view/journals/bams/103/5/BAMS-D-20-0234.1.xml}}
+  \endentry
+
+  \entry{NN}{misc}{}
+  \field{howpublished}{\url{https://www.researchgate.net/figure/A-biological-neuron-in-comparison-to-an-artificial-neural-network-a-human-neuron-b_fig2_339446790}}
+  \endentry
+
+  \entry{ng}{misc}{}
+  \field{howpublished}{\url{https://www.nationalgeographic.com/photography/article/digitally-manipulated-ai-altered-photo-images}}
+  \endentry
+
+  \entry{video_rewrite}{misc}{}
+  \field{howpublished}{\url{https://www.historyofinformation.com/detail.php?id=4792}}
+  \endentry
+
+  \entry{reuters_fake}{misc}{}
+    \field{howpublished}{\url{https://www.reuters.com/article/idUSKCN24Z2B1/}}
+  \endentry
+
+  \entry{wsj_audio}{misc}{}
+  \field{howpublished}{\url{https://www.wsj.com/articles/fraudsters-use-ai-to-mimic-ceos-voice-in-unusual-cybercrime-case-11567157402}}
+  \endentry
+
+  \entry{classification_datacamp}{misc}{}
+  \field{howpublished}{\url{https://www.datacamp.com/blog/classification-machine-learning}}
+  \endentry
+
+  \entry{classification}{misc}{}
+  \field{howpublished}{\url{https://tjo-en.hatenablog.com/entry/2014/01/06/234155}}
+  \endentry
+
+  \entry{regression}{misc}{}
+  \field{howpublished}{\url{https://github.com/microsoft/ML-For-Beginners/blob/main/2-Regression/3-Linear/solution/R/lesson_3-R.ipynb}}
+  \endentry
+
+  \entry{KirkDBorne}{misc}{}
+  \field{howpublished}{\url{https://x.com/KirkDBorne/status/610642013856362496}}
+  \endentry
+
+  \entry{google_generativeIA}{misc}{}
+  \field{howpublished}{\url{https://developers.google.com/machine-learning/gan/generative?hl=it}}
+  \endentry
+
+  \entry{fr}{misc}{}
+    \field{howpublished}{\url{https://29a.ch/photo-forensics/#help}}
+  \endentry
+
+  \entry{deepfake_jus}{misc}{}
+  \field{howpublished}{\url{https://www.smartius.it/data-it-law/reato-usare-deepfake/}}
+  \endentry
+
+  \entry{jeronymo2017image}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JDC}{%
+         family={Jeronymo},
+         familyi={J\bibinitperiod},
+         given={Daniel\bibnamedelima Cavalcanti},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BYCC}{%
+         family={Borges},
+         familyi={B\bibinitperiod},
+         given={Yuri Cassio\bibnamedelima Campbell},
+         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+      {{hash=dSCL}{%
+         prefix={dos},
+         prefixi={d\bibinitperiod},
+         family={Santos\bibnamedelima Coelho},
+         familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Leandro},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{JDCBYCCSCLd1}
+    \strng{fullhash}{JDCBYCCSCLd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{348\bibrangedash 356}
+    \field{title}{Image forgery detection by semi-automatic wavelet
+  soft-thresholding with error level analysis}
+    \field{volume}{85}
+    \field{journaltitle}{Expert Systems with Applications}
+    \field{year}{2017}
+  \endentry
+
+  \entry{masood2023deepfakes}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MM}{%
+         family={Masood},
+         familyi={M\bibinitperiod},
+         given={Momina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nawaz},
+         familyi={N\bibinitperiod},
+         given={Mariam},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MKM}{%
+         family={Malik},
+         familyi={M\bibinitperiod},
+         given={Khalid\bibnamedelima Mahmood},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=JA}{%
+         family={Javed},
+         familyi={J\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IA}{%
+         family={Irtaza},
+         familyi={I\bibinitperiod},
+         given={Aun},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Malik},
+         familyi={M\bibinitperiod},
+         given={Hafiz},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{MM+1}
+    \strng{fullhash}{MMNMMKMJAIAMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{4}
+    \field{pages}{3974\bibrangedash 4026}
+    \field{title}{Deepfakes generation and detection: State-of-the-art, open
+  challenges, countermeasures, and way forward}
+    \field{volume}{53}
+    \field{journaltitle}{Applied intelligence}
+    \field{year}{2023}
+  \endentry
+
+  \entry{pml2Book}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MKP}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Kevin\bibnamedelima P.},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{MKP1}
+    \strng{fullhash}{MKP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Probabilistic Machine Learning: Advanced Topics}
+    \verb{url}
+    \verb http://probml.github.io/book2
+    \endverb
+    \field{year}{2023}
+  \endentry
+
+  \entry{pml1Book}{book}{}
+    \name{author}{1}{}{%
+      {{hash=MKP}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Kevin\bibnamedelima P.},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{MKP1}
+    \strng{fullhash}{MKP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Probabilistic Machine Learning: An introduction}
+    \verb{url}
+    \verb probml.ai
+    \endverb
+    \field{year}{2022}
+  \endentry
+
+  \entry{nguyen2017plug}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=NA}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Anh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Clune},
+         familyi={C\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dosovitskiy},
+         familyi={D\bibinitperiod},
+         given={Alexey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Yosinski},
+         familyi={Y\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NA+1}
+    \strng{fullhash}{NACJBYDAYJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}
+    \field{pages}{4467\bibrangedash 4477}
+    \field{title}{Plug \& play generative networks: Conditional iterative
+  generation of images in latent space}
+    \field{year}{2017}
+  \endentry
+
+  \entry{rafique2023deep}{article}{}
+    \name{author}{6}{}{%
+      {{hash=RR}{%
+         family={Rafique},
+         familyi={R\bibinitperiod},
+         given={Rimsha},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gantassi},
+         familyi={G\bibinitperiod},
+         given={Rahma},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Amin},
+         familyi={A\bibinitperiod},
+         given={Rashid},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Frnda},
+         familyi={F\bibinitperiod},
+         given={Jaroslav},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mustapha},
+         familyi={M\bibinitperiod},
+         given={Aida},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AAH}{%
+         family={Alshehri},
+         familyi={A\bibinitperiod},
+         given={Asma\bibnamedelima Hassan},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group UK London}%
+    }
+    \strng{namehash}{RR+1}
+    \strng{fullhash}{RRGRARFJMAAAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{1}
+    \field{pages}{7422}
+    \field{title}{Deep fake detection and classification using error-level
+  analysis and deep learning}
+    \field{volume}{13}
+    \field{journaltitle}{Scientific Reports}
+    \field{year}{2023}
+  \endentry
+\enddatalist
+\endinput
