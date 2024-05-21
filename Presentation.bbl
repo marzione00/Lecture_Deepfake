@@ -105,6 +105,10 @@
   \field{howpublished}{\url{https://github.com/microsoft/ML-For-Beginners/blob/main/2-Regression/3-Linear/solution/R/lesson_3-R.ipynb}}
   \endentry
 
+  \entry{KirkDBorne}{misc}{}
+  \field{howpublished}{\url{https://x.com/KirkDBorne/status/610642013856362496}}
+  \endentry
+
   \entry{google_generativeIA}{misc}{}
   \field{howpublished}{\url{https://developers.google.com/machine-learning/gan/generative?hl=it}}
   \endentry
