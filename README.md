@@ -1,6 +1,6 @@
-# Lecture_Deepfake
+## Lecture_Deepfake
 
-Tutorial pratico: 
+# Tutorial pratico: 
 
 - Visualizzazione dei codici per VAE e GAN (con diverse risoluzioni)
 
