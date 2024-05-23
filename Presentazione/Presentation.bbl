@@ -118,6 +118,11 @@
   \field{howpublished}{\url{https://developers.google.com/machine-learning/gan/generative?hl=it}}
   \endentry
 
+  \entry{autoencoder_comp}{misc}{}
+    \field{howpublished}{\url{
+  https://www.researchgate.net/figure/An-autoencoder-example-The-input-image-is-encoded-to-a-compressed-representation-and_fig1_339945889}}
+  \endentry
+
   \entry{fr}{misc}{}
     \field{howpublished}{\url{https://29a.ch/photo-forensics/#help}}
   \endentry

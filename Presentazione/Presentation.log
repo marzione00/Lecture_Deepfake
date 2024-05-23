@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  23 MAY 2024 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  23 MAY 2024 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2033,7 +2033,7 @@ Package biblatex Info: ... file 'Presentation.bbl' found.
 ! Illegal parameter number in definition of \NewValue.
 <to be read again> 
                    h
-l.122 ...rl{https://29a.ch/photo-forensics/#help}}
+l.127 ...rl{https://29a.ch/photo-forensics/#help}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2042,7 +2042,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \abx@field@howpublished.
 <to be read again> 
                    h
-l.123   \endentry
+l.128   \endentry
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2447,25 +2447,23 @@ Overfull \vbox (4.1991pt too high) detected at line 447
 [43
 
  <./Pic/generative_models.png>]
-<Pic/generative_models_example.png, id=595, 265.49188pt x 331.73938pt>
-File: Pic/generative_models_example.png Graphic file (type png)
-<use Pic/generative_models_example.png>
-Package pdftex.def Info: Pic/generative_models_example.png  used on input line 
-453.
-(pdftex.def)             Requested size: 171.14764pt x 213.85635pt.
+<Pic/CompressionVAE.png, id=595, 426.59375pt x 137.01187pt>
+File: Pic/CompressionVAE.png Graphic file (type png)
+<use Pic/CompressionVAE.png>
+Package pdftex.def Info: Pic/CompressionVAE.png  used on input line 453.
+(pdftex.def)             Requested size: 273.83728pt x 87.9549pt.
  [44
 
- <./Pic/generative_models_example.png>]
-<Pic/autoencoder.png, id=630, 1957.3125pt x 1369.115pt>
+ <./Pic/CompressionVAE.png>]
+<Pic/autoencoder.png, id=632, 1957.3125pt x 1369.115pt>
 File: Pic/autoencoder.png Graphic file (type png)
 <use Pic/autoencoder.png>
 Package pdftex.def Info: Pic/autoencoder.png  used on input line 473.
 (pdftex.def)             Requested size: 136.91603pt x 95.76427pt.
-
-[45
+ [45
 
  <./Pic/autoencoder.png>]
-<Pic/autoencoder_ex.png, id=643, 258.46562pt x 210.28563pt>
+<Pic/autoencoder_ex.png, id=645, 258.46562pt x 210.28563pt>
 File: Pic/autoencoder_ex.png Graphic file (type png)
 <use Pic/autoencoder_ex.png>
 Package pdftex.def Info: Pic/autoencoder_ex.png  used on input line 479.
@@ -2477,13 +2475,13 @@ Overfull \vbox (1.74448pt too high) detected at line 479
 [46
 
  <./Pic/autoencoder_ex.png>]
-<Pic/variational_auto_diag.png, id=671, 334.75063pt x 99.37125pt>
+<Pic/variational_auto_diag.png, id=673, 334.75063pt x 99.37125pt>
 File: Pic/variational_auto_diag.png Graphic file (type png)
 <use Pic/variational_auto_diag.png>
 Package pdftex.def Info: Pic/variational_auto_diag.png  used on input line 504.
 
 (pdftex.def)             Requested size: 136.91603pt x 40.64543pt.
-<Pic/AE_vs_VAE.png, id=684, 323.2075pt x 210.28563pt>
+<Pic/AE_vs_VAE.png, id=686, 323.2075pt x 210.28563pt>
 File: Pic/AE_vs_VAE.png Graphic file (type png)
 <use Pic/AE_vs_VAE.png>
 Package pdftex.def Info: Pic/AE_vs_VAE.png  used on input line 504.
@@ -2491,7 +2489,7 @@ Package pdftex.def Info: Pic/AE_vs_VAE.png  used on input line 504.
  [47
 
  <./Pic/variational_auto_diag.png> <./Pic/AE_vs_VAE.png>]
-<Pic/var_generation.png, id=696, 443.15562pt x 268.00125pt>
+<Pic/var_generation.png, id=698, 443.15562pt x 268.00125pt>
 File: Pic/var_generation.png Graphic file (type png)
 <use Pic/var_generation.png>
 Package pdftex.def Info: Pic/var_generation.png  used on input line 510.
@@ -2499,12 +2497,12 @@ Package pdftex.def Info: Pic/var_generation.png  used on input line 510.
  [48
 
  <./Pic/var_generation.png>]
-<Pic/GAN.png, id=719, 753.81625pt x 296.10625pt>
+<Pic/GAN.png, id=721, 753.81625pt x 296.10625pt>
 File: Pic/GAN.png Graphic file (type png)
 <use Pic/GAN.png>
 Package pdftex.def Info: Pic/GAN.png  used on input line 532.
 (pdftex.def)             Requested size: 136.91603pt x 53.78026pt.
-<Pic/algorithm_GAN.png, id=720, 554.57187pt x 209.28188pt>
+<Pic/algorithm_GAN.png, id=722, 554.57187pt x 209.28188pt>
 File: Pic/algorithm_GAN.png Graphic file (type png)
 <use Pic/algorithm_GAN.png>
 Package pdftex.def Info: Pic/algorithm_GAN.png  used on input line 532.
@@ -2512,7 +2510,7 @@ Package pdftex.def Info: Pic/algorithm_GAN.png  used on input line 532.
  [49
 
  <./Pic/GAN.png> <./Pic/algorithm_GAN.png>]
-<Pic/GAN_example.png, id=733, 354.82562pt x 364.36125pt>
+<Pic/GAN_example.png, id=735, 354.82562pt x 364.36125pt>
 File: Pic/GAN_example.png Graphic file (type png)
 <use Pic/GAN_example.png>
 Package pdftex.def Info: Pic/GAN_example.png  used on input line 539.
@@ -2522,7 +2520,7 @@ Package pdftex.def Info: Pic/GAN_example.png  used on input line 539.
  <./Pic/GAN_example.png>] [51
 
 ]
-<Pic/deepfake_detection.png, id=751, 605.26125pt x 264.48813pt>
+<Pic/deepfake_detection.png, id=753, 605.26125pt x 264.48813pt>
 File: Pic/deepfake_detection.png Graphic file (type png)
 <use Pic/deepfake_detection.png>
 Package pdftex.def Info: Pic/deepfake_detection.png  used on input line 555.
@@ -2530,7 +2528,7 @@ Package pdftex.def Info: Pic/deepfake_detection.png  used on input line 555.
  [52
 
  <./Pic/deepfake_detection.png>]
-<Pic/ELA_FULL.png, id=761, 952.55875pt x 336.25626pt>
+<Pic/ELA_FULL.png, id=763, 952.55875pt x 336.25626pt>
 File: Pic/ELA_FULL.png Graphic file (type png)
 <use Pic/ELA_FULL.png>
 Package pdftex.def Info: Pic/ELA_FULL.png  used on input line 562.
@@ -2538,7 +2536,7 @@ Package pdftex.def Info: Pic/ELA_FULL.png  used on input line 562.
  [53
 
  <./Pic/ELA_FULL.png>]
-<Pic/ELA+DEEP.png, id=772, 662.97687pt x 279.0425pt>
+<Pic/ELA+DEEP.png, id=774, 662.97687pt x 279.0425pt>
 File: Pic/ELA+DEEP.png Graphic file (type png)
 <use Pic/ELA+DEEP.png>
 Package pdftex.def Info: Pic/ELA+DEEP.png  used on input line 568.
@@ -2546,7 +2544,7 @@ Package pdftex.def Info: Pic/ELA+DEEP.png  used on input line 568.
  [54
 
  <./Pic/ELA+DEEP.png>]
-<Pic/forensically.png, id=783, 942.01938pt x 486.81876pt>
+<Pic/forensically.png, id=785, 942.01938pt x 486.81876pt>
 File: Pic/forensically.png Graphic file (type png)
 <use Pic/forensically.png>
 Package pdftex.def Info: Pic/forensically.png  used on input line 574.
@@ -2618,6 +2616,9 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 ] [64
 
 
+] [65
+
+
 ]
 \tf@nav=\write7
 \openout7 = `Presentation.nav'.
@@ -2644,10 +2645,10 @@ Package logreq Info: Writing requests to 'Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38959 strings out of 474462
- 787517 string characters out of 5752662
- 1956998 words of memory out of 5000000
- 60357 multiletter control sequences out of 15000+600000
+ 38968 strings out of 474462
+ 787687 string characters out of 5752662
+ 1957998 words of memory out of 5000000
+ 60363 multiletter control sequences out of 15000+600000
  574259 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,1910b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2664,9 +2665,9 @@ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
 msfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/e
 uler/eurb10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurm
 10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb>
-Output written on Presentation.pdf (64 pages, 27138723 bytes).
+Output written on Presentation.pdf (65 pages, 26609194 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
+ 1044 PDF objects out of 1200 (max. 8388607)
+ 172 named destinations out of 1000 (max. 500000)
  829 words of extra memory for PDF output out of 10000 (max. 10000000)
 
