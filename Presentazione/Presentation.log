@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  21 MAY 2024 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.27)  23 MAY 2024 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2033,7 +2033,7 @@ Package biblatex Info: ... file 'Presentation.bbl' found.
 ! Illegal parameter number in definition of \NewValue.
 <to be read again> 
                    h
-l.117 ...rl{https://29a.ch/photo-forensics/#help}}
+l.122 ...rl{https://29a.ch/photo-forensics/#help}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2042,7 +2042,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \abx@field@howpublished.
 <to be read again> 
                    h
-l.118   \endentry
+l.123   \endentry
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2159,404 +2159,421 @@ Package pdftex.def Info: Pic/linkedinnet.png  used on input line 142.
  [12
 
  <./Pic/linkedinnet.png>]
-<Pic/reuters_miaash.png, id=163, 607.26875pt x 446.66875pt>
-File: Pic/reuters_miaash.png Graphic file (type png)
-<use Pic/reuters_miaash.png>
-Package pdftex.def Info: Pic/reuters_miaash.png  used on input line 150.
-(pdftex.def)             Requested size: 273.83728pt x 201.42165pt.
+<Pic/MiaAsh_diagram.png, id=163, 557.83406pt x 313.9228pt>
+File: Pic/MiaAsh_diagram.png Graphic file (type png)
+<use Pic/MiaAsh_diagram.png>
+Package pdftex.def Info: Pic/MiaAsh_diagram.png  used on input line 150.
+(pdftex.def)             Requested size: 205.37926pt x 115.5748pt.
  [13
 
- <./Pic/reuters_miaash.png>]
-<Pic/GEN_IA_minacce.png, id=175, 481.8pt x 271.0125pt>
-File: Pic/GEN_IA_minacce.png Graphic file (type png)
-<use Pic/GEN_IA_minacce.png>
-Package pdftex.def Info: Pic/GEN_IA_minacce.png  used on input line 159.
-(pdftex.def)             Requested size: 273.83728pt x 154.03624pt.
+ <./Pic/MiaAsh_diagram.png>]
+<Pic/reuters_miaash.png, id=174, 607.26875pt x 446.66875pt>
+File: Pic/reuters_miaash.png Graphic file (type png)
+<use Pic/reuters_miaash.png>
+Package pdftex.def Info: Pic/reuters_miaash.png  used on input line 158.
+(pdftex.def)             Requested size: 273.83728pt x 201.42165pt.
  [14
 
- <./Pic/GEN_IA_minacce.png>]
-<Pic/AI_phishing.png, id=186, 848.16875pt x 403.5075pt>
-File: Pic/AI_phishing.png Graphic file (type png)
-<use Pic/AI_phishing.png>
-Package pdftex.def Info: Pic/AI_phishing.png  used on input line 167.
-(pdftex.def)             Requested size: 273.83728pt x 130.2764pt.
+ <./Pic/reuters_miaash.png>]
+<Pic/GEN_IA_minacce.png, id=185, 481.8pt x 271.0125pt>
+File: Pic/GEN_IA_minacce.png Graphic file (type png)
+<use Pic/GEN_IA_minacce.png>
+Package pdftex.def Info: Pic/GEN_IA_minacce.png  used on input line 167.
+(pdftex.def)             Requested size: 273.83728pt x 154.03624pt.
  [15
 
- <./Pic/AI_phishing.png>]
-<Pic/cnn_click_farm.png, id=197, 1734.48pt x 679.03688pt>
-File: Pic/cnn_click_farm.png Graphic file (type png)
-<use Pic/cnn_click_farm.png>
-Package pdftex.def Info: Pic/cnn_click_farm.png  used on input line 175.
-(pdftex.def)             Requested size: 273.83728pt x 107.19754pt.
+ <./Pic/GEN_IA_minacce.png>]
+<Pic/AI_phishing.png, id=196, 848.16875pt x 403.5075pt>
+File: Pic/AI_phishing.png Graphic file (type png)
+<use Pic/AI_phishing.png>
+Package pdftex.def Info: Pic/AI_phishing.png  used on input line 175.
+(pdftex.def)             Requested size: 273.83728pt x 130.2764pt.
  [16
 
+ <./Pic/AI_phishing.png>]
+<Pic/cnn_click_farm.png, id=207, 1734.48pt x 679.03688pt>
+File: Pic/cnn_click_farm.png Graphic file (type png)
+<use Pic/cnn_click_farm.png>
+Package pdftex.def Info: Pic/cnn_click_farm.png  used on input line 183.
+(pdftex.def)             Requested size: 273.83728pt x 107.19754pt.
+ [17
+
  <./Pic/cnn_click_farm.png>]
-<Pic/compra_account_instagram.png, id=208, 869.74937pt x 479.29062pt>
+<Pic/compra_account_instagram.png, id=218, 869.74937pt x 479.29062pt>
 File: Pic/compra_account_instagram.png Graphic file (type png)
 <use Pic/compra_account_instagram.png>
 Package pdftex.def Info: Pic/compra_account_instagram.png  used on input line 1
-85.
+93.
 (pdftex.def)             Requested size: 273.83728pt x 150.9042pt.
- [17
+ [18
 
  <./Pic/compra_account_instagram.png>]
-<Pic/compra_account_instagram_2.png, id=217, 920.43875pt x 516.93124pt>
+<Pic/compra_account_instagram_2.png, id=227, 920.43875pt x 516.93124pt>
 File: Pic/compra_account_instagram_2.png Graphic file (type png)
 <use Pic/compra_account_instagram_2.png>
 Package pdftex.def Info: Pic/compra_account_instagram_2.png  used on input line
- 193.
+ 201.
 (pdftex.def)             Requested size: 273.83728pt x 153.79486pt.
- [18
+ [19
 
  <./Pic/compra_account_instagram_2.png>]
-<Pic/nano_influence_politics.png, id=226, 775.39688pt x 701.62125pt>
+<Pic/nano_influence_politics.png, id=237, 775.39688pt x 701.62125pt>
 File: Pic/nano_influence_politics.png Graphic file (type png)
 <use Pic/nano_influence_politics.png>
 Package pdftex.def Info: Pic/nano_influence_politics.png  used on input line 20
-1.
+9.
 (pdftex.def)             Requested size: 205.37926pt x 185.83238pt.
- [19
+ [20
 
- <./Pic/nano_influence_politics.png>] [20
-
-] [21
+ <./Pic/nano_influence_politics.png>] [21
 
 ] [22
 
+] [23
+
 ]
-<Pic/IA_classification.jpg, id=302, 61.6704pt x 33.78622pt>
+<Pic/IA_classification.jpg, id=312, 61.6704pt x 33.78622pt>
 File: Pic/IA_classification.jpg Graphic file (type jpg)
 <use Pic/IA_classification.jpg>
-Package pdftex.def Info: Pic/IA_classification.jpg  used on input line 239.
+Package pdftex.def Info: Pic/IA_classification.jpg  used on input line 247.
 (pdftex.def)             Requested size: 273.83728pt x 150.05588pt.
- [23
+ [24
 
  <./Pic/IA_classification.jpg>]
-<Pic/Neural_network.png, id=312, 853.1875pt x 511.9125pt>
+<Pic/Neural_network.png, id=322, 853.1875pt x 511.9125pt>
 File: Pic/Neural_network.png Graphic file (type png)
 <use Pic/Neural_network.png>
-Package pdftex.def Info: Pic/Neural_network.png  used on input line 247.
+Package pdftex.def Info: Pic/Neural_network.png  used on input line 255.
 (pdftex.def)             Requested size: 273.83728pt x 164.30745pt.
+ [25
 
-[24
-
- <./Pic/Neural_network.png>] [25
+ <./Pic/Neural_network.png>] [26
 
 ]
-<Pic/lincon.jpg, id=331, 722.7pt x 521.95pt>
+<Pic/lincon.jpg, id=341, 722.7pt x 521.95pt>
 File: Pic/lincon.jpg Graphic file (type jpg)
 <use Pic/lincon.jpg>
-Package pdftex.def Info: Pic/lincon.jpg  used on input line 268.
+Package pdftex.def Info: Pic/lincon.jpg  used on input line 276.
 (pdftex.def)             Requested size: 273.83728pt x 197.76962pt.
- [26
-
- <./Pic/lincon.jpg>]
-<Pic/Licon_deepfake.jpg, id=339, 2770.35pt x 1725.44624pt>
-File: Pic/Licon_deepfake.jpg Graphic file (type jpg)
-<use Pic/Licon_deepfake.jpg>
-Package pdftex.def Info: Pic/Licon_deepfake.jpg  used on input line 277.
-(pdftex.def)             Requested size: 273.83728pt x 170.55379pt.
  [27
 
- <./Pic/Licon_deepfake.jpg>]
-<Pic/video_rewrite.png, id=349, 547.2947pt x 356.83313pt>
-File: Pic/video_rewrite.png Graphic file (type png)
-<use Pic/video_rewrite.png>
-Package pdftex.def Info: Pic/video_rewrite.png  used on input line 286.
-(pdftex.def)             Requested size: 273.83728pt x 178.54135pt.
+ <./Pic/lincon.jpg>]
+<Pic/Licon_deepfake.jpg, id=349, 2770.35pt x 1725.44624pt>
+File: Pic/Licon_deepfake.jpg Graphic file (type jpg)
+<use Pic/Licon_deepfake.jpg>
+Package pdftex.def Info: Pic/Licon_deepfake.jpg  used on input line 285.
+(pdftex.def)             Requested size: 273.83728pt x 170.55379pt.
  [28
 
- <./Pic/video_rewrite.png>]
-<Pic/timeline_deepfakes.png, id=360, 692.5875pt x 337.26pt>
-File: Pic/timeline_deepfakes.png Graphic file (type png)
-<use Pic/timeline_deepfakes.png>
-Package pdftex.def Info: Pic/timeline_deepfakes.png  used on input line 295.
-(pdftex.def)             Requested size: 273.83728pt x 133.34746pt.
+ <./Pic/Licon_deepfake.jpg>]
+<Pic/video_rewrite.png, id=359, 547.2947pt x 356.83313pt>
+File: Pic/video_rewrite.png Graphic file (type png)
+<use Pic/video_rewrite.png>
+Package pdftex.def Info: Pic/video_rewrite.png  used on input line 294.
+(pdftex.def)             Requested size: 273.83728pt x 178.54135pt.
  [29
 
- <./Pic/timeline_deepfakes.png>]
-<Pic/guardian_obama.png, id=371, 944.7797pt x 649.67719pt>
-File: Pic/guardian_obama.png Graphic file (type png)
-<use Pic/guardian_obama.png>
-Package pdftex.def Info: Pic/guardian_obama.png  used on input line 304.
-(pdftex.def)             Requested size: 273.83728pt x 188.30241pt.
+ <./Pic/video_rewrite.png>]
+<Pic/timeline_deepfakes.png, id=370, 692.5875pt x 337.26pt>
+File: Pic/timeline_deepfakes.png Graphic file (type png)
+<use Pic/timeline_deepfakes.png>
+Package pdftex.def Info: Pic/timeline_deepfakes.png  used on input line 303.
+(pdftex.def)             Requested size: 273.83728pt x 133.34746pt.
  [30
 
+ <./Pic/timeline_deepfakes.png>]
+<Pic/guardian_obama.png, id=381, 944.7797pt x 649.67719pt>
+File: Pic/guardian_obama.png Graphic file (type png)
+<use Pic/guardian_obama.png>
+Package pdftex.def Info: Pic/guardian_obama.png  used on input line 312.
+(pdftex.def)             Requested size: 273.83728pt x 188.30241pt.
+ [31
+
  <./Pic/guardian_obama.png>]
-<Pic/deepfake_audio.png, id=382, 791.20593pt x 889.07156pt>
+<Pic/deepfake_audio.png, id=393, 791.20593pt x 889.07156pt>
 File: Pic/deepfake_audio.png Graphic file (type png)
 <use Pic/deepfake_audio.png>
-Package pdftex.def Info: Pic/deepfake_audio.png  used on input line 312.
+Package pdftex.def Info: Pic/deepfake_audio.png  used on input line 320.
 (pdftex.def)             Requested size: 205.37926pt x 230.7733pt.
 
-Overfull \vbox (9.70271pt too high) detected at line 312
- []
-
-[31
-
- <./Pic/deepfake_audio.png>]
-<Pic/fake_video_pelosi.png, id=394, 659.46375pt x 725.71124pt>
-File: Pic/fake_video_pelosi.png Graphic file (type png)
-<use Pic/fake_video_pelosi.png>
-Package pdftex.def Info: Pic/fake_video_pelosi.png  used on input line 323.
-(pdftex.def)             Requested size: 205.37926pt x 226.00906pt.
-
-Overfull \vbox (4.93848pt too high) detected at line 323
+Overfull \vbox (9.70271pt too high) detected at line 320
  []
 
 [32
 
+ <./Pic/deepfake_audio.png>]
+<Pic/fake_video_pelosi.png, id=404, 659.46375pt x 725.71124pt>
+File: Pic/fake_video_pelosi.png Graphic file (type png)
+<use Pic/fake_video_pelosi.png>
+Package pdftex.def Info: Pic/fake_video_pelosi.png  used on input line 331.
+(pdftex.def)             Requested size: 205.37926pt x 226.00906pt.
+
+Overfull \vbox (4.93848pt too high) detected at line 331
+ []
+
+[33
+
  <./Pic/fake_video_pelosi.png>]
-<Pic/deepfake_tools.png, id=404, 578.91281pt x 660.21657pt>
+<Pic/deepfake_tools.png, id=414, 578.91281pt x 660.21657pt>
 File: Pic/deepfake_tools.png Graphic file (type png)
 <use Pic/deepfake_tools.png>
-Package pdftex.def Info: Pic/deepfake_tools.png  used on input line 331.
+Package pdftex.def Info: Pic/deepfake_tools.png  used on input line 339.
 (pdftex.def)             Requested size: 171.14764pt x 195.1853pt.
- [33
+ [34
 
- <./Pic/deepfake_tools.png>] [34
+ <./Pic/deepfake_tools.png>] [35
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/up' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 351.
+(Font)              using `OT1/cmr/m/n' instead on input line 359.
 
-LaTeX Font Info:    Trying to load font information for U+eur on input line 351
+LaTeX Font Info:    Trying to load font information for U+eur on input line 359
 .
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 351
+LaTeX Font Info:    Trying to load font information for U+msa on input line 359
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 351
+LaTeX Font Info:    Trying to load font information for U+msb on input line 359
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+euf on input line 351
+LaTeX Font Info:    Trying to load font information for U+euf on input line 359
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-LaTeX Font Info:    Trying to load font information for U+eus on input line 351
+LaTeX Font Info:    Trying to load font information for U+eus on input line 359
 .
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
 LaTeX Font Info:    Trying to load font information for U+euex on input line 35
-1.
+9.
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 351.
+ut line 359.
 
 (C:\Program Files\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) [35
+) [36
 
 ]
-<Pic/4_label_classification_task_Datacamp.png, id=452, 631.35875pt x 241.90375p
+<Pic/4_label_classification_task_Datacamp.png, id=462, 631.35875pt x 241.90375p
 t>
 File: Pic/4_label_classification_task_Datacamp.png Graphic file (type png)
 <use Pic/4_label_classification_task_Datacamp.png>
 Package pdftex.def Info: Pic/4_label_classification_task_Datacamp.png  used on 
-input line 359.
+input line 367.
 (pdftex.def)             Requested size: 273.83728pt x 104.92091pt.
 
-[36
+[37
 
  <./Pic/4_label_classification_task_Datacamp.png>]
-<Pic/regression.png, id=464, 383.93437pt x 511.9125pt>
+<Pic/regression.png, id=475, 383.93437pt x 511.9125pt>
 File: Pic/regression.png Graphic file (type png)
 <use Pic/regression.png>
-Package pdftex.def Info: Pic/regression.png  used on input line 381.
+Package pdftex.def Info: Pic/regression.png  used on input line 389.
 (pdftex.def)             Requested size: 136.91862pt x 182.56209pt.
-<Pic/classification.png, id=465, 321.2pt x 433.11812pt>
+<Pic/classification.png, id=476, 321.2pt x 433.11812pt>
 File: Pic/classification.png Graphic file (type png)
 <use Pic/classification.png>
-Package pdftex.def Info: Pic/classification.png  used on input line 381.
+Package pdftex.def Info: Pic/classification.png  used on input line 389.
 (pdftex.def)             Requested size: 82.15045pt x 110.7708pt.
- [37
-
- <./Pic/regression.png> <./Pic/classification.png>]
-<Pic/ML_dec_boundary.png, id=494, 290.08376pt x 266.9975pt>
-File: Pic/ML_dec_boundary.png Graphic file (type png)
-<use Pic/ML_dec_boundary.png>
-Package pdftex.def Info: Pic/ML_dec_boundary.png  used on input line 391.
-(pdftex.def)             Requested size: 171.14764pt x 157.52715pt.
  [38
 
+ <./Pic/regression.png> <./Pic/classification.png>]
+<Pic/decision_boundary_example.png, id=504, 502.2765pt x 646.0938pt>
+File: Pic/decision_boundary_example.png Graphic file (type png)
+<use Pic/decision_boundary_example.png>
+Package pdftex.def Info: Pic/decision_boundary_example.png  used on input line 
+398.
+(pdftex.def)             Requested size: 171.14764pt x 220.15205pt.
+ [39
+
+ <./Pic/decision_boundary_example.png>]
+<Pic/ML_dec_boundary.png, id=519, 290.08376pt x 266.9975pt>
+File: Pic/ML_dec_boundary.png Graphic file (type png)
+<use Pic/ML_dec_boundary.png>
+Package pdftex.def Info: Pic/ML_dec_boundary.png  used on input line 409.
+(pdftex.def)             Requested size: 171.14764pt x 157.52715pt.
+
+[40
+
  <./Pic/ML_dec_boundary.png>]
-<Pic/perceptron.png, id=509, 783.67781pt x 741.52031pt>
+<Pic/perceptron.png, id=534, 783.67781pt x 741.52031pt>
 File: Pic/perceptron.png Graphic file (type png)
 <use Pic/perceptron.png>
-Package pdftex.def Info: Pic/perceptron.png  used on input line 400.
+Package pdftex.def Info: Pic/perceptron.png  used on input line 418.
 (pdftex.def)             Requested size: 239.60567pt x 226.71213pt.
 
-Overfull \vbox (5.64154pt too high) detected at line 400
- []
-
-[39
-
- <./Pic/perceptron.png>]
-<Pic/generative_v_discriminative.png, id=531, 556.0775pt x 311.1625pt>
-File: Pic/generative_v_discriminative.png Graphic file (type png)
-<use Pic/generative_v_discriminative.png>
-Package pdftex.def Info: Pic/generative_v_discriminative.png  used on input lin
-e 423.
-(pdftex.def)             Requested size: 171.14764pt x 95.76617pt.
- [40
-
- <./Pic/generative_v_discriminative.png (PNG copy)>]
-<Pic/generative_models.png, id=558, 411.03563pt x 386.44376pt>
-File: Pic/generative_models.png Graphic file (type png)
-<use Pic/generative_models.png>
-Package pdftex.def Info: Pic/generative_models.png  used on input line 429.
-(pdftex.def)             Requested size: 239.60567pt x 225.26968pt.
-
-Overfull \vbox (4.1991pt too high) detected at line 429
+Overfull \vbox (5.64154pt too high) detected at line 418
  []
 
 [41
 
- <./Pic/generative_models.png>]
-<Pic/generative_models_example.png, id=569, 265.49188pt x 331.73938pt>
-File: Pic/generative_models_example.png Graphic file (type png)
-<use Pic/generative_models_example.png>
-Package pdftex.def Info: Pic/generative_models_example.png  used on input line 
-435.
-(pdftex.def)             Requested size: 171.14764pt x 213.85635pt.
+ <./Pic/perceptron.png>]
+<Pic/generative_v_discriminative.png, id=556, 556.0775pt x 311.1625pt>
+File: Pic/generative_v_discriminative.png Graphic file (type png)
+<use Pic/generative_v_discriminative.png>
+Package pdftex.def Info: Pic/generative_v_discriminative.png  used on input lin
+e 441.
+(pdftex.def)             Requested size: 171.14764pt x 95.76617pt.
  [42
 
- <./Pic/generative_models_example.png>]
-<Pic/autoencoder.png, id=604, 1957.3125pt x 1369.115pt>
-File: Pic/autoencoder.png Graphic file (type png)
-<use Pic/autoencoder.png>
-Package pdftex.def Info: Pic/autoencoder.png  used on input line 455.
-(pdftex.def)             Requested size: 136.91603pt x 95.76427pt.
+ <./Pic/generative_v_discriminative.png (PNG copy)>]
+<Pic/generative_models.png, id=583, 411.03563pt x 386.44376pt>
+File: Pic/generative_models.png Graphic file (type png)
+<use Pic/generative_models.png>
+Package pdftex.def Info: Pic/generative_models.png  used on input line 447.
+(pdftex.def)             Requested size: 239.60567pt x 225.26968pt.
+
+Overfull \vbox (4.1991pt too high) detected at line 447
+ []
 
 [43
 
+ <./Pic/generative_models.png>]
+<Pic/generative_models_example.png, id=595, 265.49188pt x 331.73938pt>
+File: Pic/generative_models_example.png Graphic file (type png)
+<use Pic/generative_models_example.png>
+Package pdftex.def Info: Pic/generative_models_example.png  used on input line 
+453.
+(pdftex.def)             Requested size: 171.14764pt x 213.85635pt.
+ [44
+
+ <./Pic/generative_models_example.png>]
+<Pic/autoencoder.png, id=630, 1957.3125pt x 1369.115pt>
+File: Pic/autoencoder.png Graphic file (type png)
+<use Pic/autoencoder.png>
+Package pdftex.def Info: Pic/autoencoder.png  used on input line 473.
+(pdftex.def)             Requested size: 136.91603pt x 95.76427pt.
+
+[45
+
  <./Pic/autoencoder.png>]
-<Pic/autoencoder_ex.png, id=618, 258.46562pt x 210.28563pt>
+<Pic/autoencoder_ex.png, id=643, 258.46562pt x 210.28563pt>
 File: Pic/autoencoder_ex.png Graphic file (type png)
 <use Pic/autoencoder_ex.png>
-Package pdftex.def Info: Pic/autoencoder_ex.png  used on input line 461.
+Package pdftex.def Info: Pic/autoencoder_ex.png  used on input line 479.
 (pdftex.def)             Requested size: 273.83728pt x 222.81506pt.
 
-Overfull \vbox (1.74448pt too high) detected at line 461
+Overfull \vbox (1.74448pt too high) detected at line 479
  []
 
-[44
+[46
 
  <./Pic/autoencoder_ex.png>]
-<Pic/variational_auto_diag.png, id=646, 334.75063pt x 99.37125pt>
+<Pic/variational_auto_diag.png, id=671, 334.75063pt x 99.37125pt>
 File: Pic/variational_auto_diag.png Graphic file (type png)
 <use Pic/variational_auto_diag.png>
-Package pdftex.def Info: Pic/variational_auto_diag.png  used on input line 486.
+Package pdftex.def Info: Pic/variational_auto_diag.png  used on input line 504.
 
 (pdftex.def)             Requested size: 136.91603pt x 40.64543pt.
-<Pic/AE_vs_VAE.png, id=659, 323.2075pt x 210.28563pt>
+<Pic/AE_vs_VAE.png, id=684, 323.2075pt x 210.28563pt>
 File: Pic/AE_vs_VAE.png Graphic file (type png)
 <use Pic/AE_vs_VAE.png>
-Package pdftex.def Info: Pic/AE_vs_VAE.png  used on input line 486.
+Package pdftex.def Info: Pic/AE_vs_VAE.png  used on input line 504.
 (pdftex.def)             Requested size: 41.07523pt x 26.72202pt.
- [45
-
- <./Pic/variational_auto_diag.png> <./Pic/AE_vs_VAE.png>]
-<Pic/var_generation.png, id=671, 443.15562pt x 268.00125pt>
-File: Pic/var_generation.png Graphic file (type png)
-<use Pic/var_generation.png>
-Package pdftex.def Info: Pic/var_generation.png  used on input line 492.
-(pdftex.def)             Requested size: 273.83728pt x 165.61516pt.
- [46
-
- <./Pic/var_generation.png>]
-<Pic/GAN.png, id=694, 753.81625pt x 296.10625pt>
-File: Pic/GAN.png Graphic file (type png)
-<use Pic/GAN.png>
-Package pdftex.def Info: Pic/GAN.png  used on input line 514.
-(pdftex.def)             Requested size: 136.91603pt x 53.78026pt.
-<Pic/algorithm_GAN.png, id=695, 554.57187pt x 209.28188pt>
-File: Pic/algorithm_GAN.png Graphic file (type png)
-<use Pic/algorithm_GAN.png>
-Package pdftex.def Info: Pic/algorithm_GAN.png  used on input line 514.
-(pdftex.def)             Requested size: 136.91603pt x 51.66888pt.
  [47
 
- <./Pic/GAN.png> <./Pic/algorithm_GAN.png>]
-<Pic/GAN_example.png, id=707, 354.82562pt x 364.36125pt>
-File: Pic/GAN_example.png Graphic file (type png)
-<use Pic/GAN_example.png>
-Package pdftex.def Info: Pic/GAN_example.png  used on input line 521.
-(pdftex.def)             Requested size: 205.37926pt x 210.90157pt.
+ <./Pic/variational_auto_diag.png> <./Pic/AE_vs_VAE.png>]
+<Pic/var_generation.png, id=696, 443.15562pt x 268.00125pt>
+File: Pic/var_generation.png Graphic file (type png)
+<use Pic/var_generation.png>
+Package pdftex.def Info: Pic/var_generation.png  used on input line 510.
+(pdftex.def)             Requested size: 273.83728pt x 165.61516pt.
  [48
 
- <./Pic/GAN_example.png>] [49
+ <./Pic/var_generation.png>]
+<Pic/GAN.png, id=719, 753.81625pt x 296.10625pt>
+File: Pic/GAN.png Graphic file (type png)
+<use Pic/GAN.png>
+Package pdftex.def Info: Pic/GAN.png  used on input line 532.
+(pdftex.def)             Requested size: 136.91603pt x 53.78026pt.
+<Pic/algorithm_GAN.png, id=720, 554.57187pt x 209.28188pt>
+File: Pic/algorithm_GAN.png Graphic file (type png)
+<use Pic/algorithm_GAN.png>
+Package pdftex.def Info: Pic/algorithm_GAN.png  used on input line 532.
+(pdftex.def)             Requested size: 136.91603pt x 51.66888pt.
+ [49
 
-]
-<Pic/deepfake_detection.png, id=726, 605.26125pt x 264.48813pt>
-File: Pic/deepfake_detection.png Graphic file (type png)
-<use Pic/deepfake_detection.png>
-Package pdftex.def Info: Pic/deepfake_detection.png  used on input line 537.
-(pdftex.def)             Requested size: 273.83728pt x 119.66023pt.
+ <./Pic/GAN.png> <./Pic/algorithm_GAN.png>]
+<Pic/GAN_example.png, id=733, 354.82562pt x 364.36125pt>
+File: Pic/GAN_example.png Graphic file (type png)
+<use Pic/GAN_example.png>
+Package pdftex.def Info: Pic/GAN_example.png  used on input line 539.
+(pdftex.def)             Requested size: 205.37926pt x 210.90157pt.
  [50
 
- <./Pic/deepfake_detection.png>]
-<Pic/ELA_FULL.png, id=736, 952.55875pt x 336.25626pt>
-File: Pic/ELA_FULL.png Graphic file (type png)
-<use Pic/ELA_FULL.png>
-Package pdftex.def Info: Pic/ELA_FULL.png  used on input line 544.
-(pdftex.def)             Requested size: 273.83728pt x 96.66522pt.
- [51
+ <./Pic/GAN_example.png>] [51
 
- <./Pic/ELA_FULL.png>]
-<Pic/ELA+DEEP.png, id=747, 662.97687pt x 279.0425pt>
-File: Pic/ELA+DEEP.png Graphic file (type png)
-<use Pic/ELA+DEEP.png>
-Package pdftex.def Info: Pic/ELA+DEEP.png  used on input line 550.
-(pdftex.def)             Requested size: 273.83728pt x 115.25546pt.
+]
+<Pic/deepfake_detection.png, id=751, 605.26125pt x 264.48813pt>
+File: Pic/deepfake_detection.png Graphic file (type png)
+<use Pic/deepfake_detection.png>
+Package pdftex.def Info: Pic/deepfake_detection.png  used on input line 555.
+(pdftex.def)             Requested size: 273.83728pt x 119.66023pt.
  [52
 
+ <./Pic/deepfake_detection.png>]
+<Pic/ELA_FULL.png, id=761, 952.55875pt x 336.25626pt>
+File: Pic/ELA_FULL.png Graphic file (type png)
+<use Pic/ELA_FULL.png>
+Package pdftex.def Info: Pic/ELA_FULL.png  used on input line 562.
+(pdftex.def)             Requested size: 273.83728pt x 96.66522pt.
+ [53
+
+ <./Pic/ELA_FULL.png>]
+<Pic/ELA+DEEP.png, id=772, 662.97687pt x 279.0425pt>
+File: Pic/ELA+DEEP.png Graphic file (type png)
+<use Pic/ELA+DEEP.png>
+Package pdftex.def Info: Pic/ELA+DEEP.png  used on input line 568.
+(pdftex.def)             Requested size: 273.83728pt x 115.25546pt.
+ [54
+
  <./Pic/ELA+DEEP.png>]
-<Pic/forensically.png, id=758, 942.01938pt x 486.81876pt>
+<Pic/forensically.png, id=783, 942.01938pt x 486.81876pt>
 File: Pic/forensically.png Graphic file (type png)
 <use Pic/forensically.png>
-Package pdftex.def Info: Pic/forensically.png  used on input line 556.
+Package pdftex.def Info: Pic/forensically.png  used on input line 574.
 (pdftex.def)             Requested size: 273.83728pt x 141.51552pt.
 
 ! Illegal parameter number in definition of \abx@field@howpublished.
 <to be read again> 
                    h
-l.556 \end{frame}
+l.574 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-[53
+[55
 
- <./Pic/forensically.png>] [54
+ <./Pic/forensically.png>] [56
 
-] [55
+] [57
 
-] [56
+] [58
 
 ]
 ! Illegal parameter number in definition of \abx@field@howpublished.
 <to be read again> 
                    h
-l.603 \end{frame}
+l.621 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2565,7 +2582,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    h
-l.603 \end{frame}
+l.621 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2574,7 +2591,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    h
-l.603 \end{frame}
+l.621 \end{frame}
                  
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -2582,15 +2599,9 @@ are all screwed up? I'm going to assume that you meant ##.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 603.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 621.
 
-[57
-
-] [58
-
-
-] [59
-
+[59
 
 ] [60
 
@@ -2599,6 +2610,12 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <10.95> not available
 
 
 ] [62
+
+
+] [63
+
+
+] [64
 
 
 ]
@@ -2627,10 +2644,10 @@ Package logreq Info: Writing requests to 'Presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38932 strings out of 474462
- 786822 string characters out of 5752662
- 1955998 words of memory out of 5000000
- 60335 multiletter control sequences out of 15000+600000
+ 38959 strings out of 474462
+ 787517 string characters out of 5752662
+ 1956998 words of memory out of 5000000
+ 60357 multiletter control sequences out of 15000+600000
  574259 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,1910b,1816s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2647,9 +2664,9 @@ Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
 msfonts/euler/eufm10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/e
 uler/eurb10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eurm
 10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb>
-Output written on Presentation.pdf (62 pages, 26971538 bytes).
+Output written on Presentation.pdf (64 pages, 27138723 bytes).
 PDF statistics:
- 1005 PDF objects out of 1200 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
- 819 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1033 PDF objects out of 1200 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
+ 829 words of extra memory for PDF output out of 10000 (max. 10000000)
 

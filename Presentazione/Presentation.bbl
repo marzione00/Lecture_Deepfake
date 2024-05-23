@@ -105,6 +105,11 @@
   \field{howpublished}{\url{https://github.com/microsoft/ML-For-Beginners/blob/main/2-Regression/3-Linear/solution/R/lesson_3-R.ipynb}}
   \endentry
 
+  \entry{bd}{misc}{}
+    \field{howpublished}{\url{
+  https://scikit-learn.sourceforge.net/0.6/auto_examples/plot_lda_vs_qda.html/}}
+  \endentry
+
   \entry{KirkDBorne}{misc}{}
   \field{howpublished}{\url{https://x.com/KirkDBorne/status/610642013856362496}}
   \endentry
