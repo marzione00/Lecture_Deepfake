@@ -131,6 +131,28 @@
   \field{howpublished}{\url{https://www.smartius.it/data-it-law/reato-usare-deepfake/}}
   \endentry
 
+  \entry{foster2022generative}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FD}{%
+         family={Foster},
+         familyi={F\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {" O'Reilly Media, Inc."}%
+    }
+    \strng{namehash}{FD1}
+    \strng{fullhash}{FD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Generative deep learning}
+    \field{year}{2022}
+  \endentry
+
   \entry{jeronymo2017image}{article}{}
     \name{author}{3}{}{%
       {{hash=JDC}{%
